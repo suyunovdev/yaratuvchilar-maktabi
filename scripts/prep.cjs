@@ -49,7 +49,18 @@ require(path.join(SRC, 'darslar-vizual-pro.js'))
 require(path.join(SRC, 'darslar-vazifa-basic.js'))
 require(path.join(SRC, 'darslar-vazifa-pro.js'))
 require(path.join(SRC, 'darslar-imtihon.js'))
+
+// Rus tarjima overlaylari (ru/ru-*.js → window.DARSLAR_RU)
+const ruDir = path.join(SRC, 'ru')
+if (fs.existsSync(ruDir)) {
+  fs.readdirSync(ruDir).filter(function(f){ return f.endsWith('.js'); }).sort().forEach(function(f){
+    require(path.join(ruDir, f))
+  })
+  console.log('   RU overlay:', Object.keys(window.DARSLAR_RU || {}).length, 'dars')
+}
+
 const data = 'export const DARSLAR = ' + JSON.stringify(window.DARSLAR, null, 2) + ';\n\n'
+           + 'export const DARSLAR_RU = ' + JSON.stringify(window.DARSLAR_RU || {}, null, 2) + ';\n\n'
            + 'export const KETMA = ' + JSON.stringify(window.KETMA) + ';\n'
 wr('src/data/darslar.js', data)
 
