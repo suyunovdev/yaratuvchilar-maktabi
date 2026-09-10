@@ -52,11 +52,11 @@ export const DARSLAR = {
       },
       {
         "s": "Skelet nima uchun kerak",
-        "p": "Sahifa <!DOCTYPE html> bilan boshlanadi — bu brauzerga 'zamonaviy HTML' deб aytadi. head ichida ko'rinmaydigan ma'lumotlar (sarlavha, til), body ichida esa foydalanuvchi ko'radigan hamma narsa turadi. Xuddi odam kabi: head — miya (ichki), body — tana (tashqi)."
+        "p": "Sahifa <!DOCTYPE html> bilan boshlanadi — bu brauzerga 'zamonaviy HTML' deb aytadi. head ichida ko'rinmaydigan ma'lumotlar (sarlavha, til), body ichida esa foydalanuvchi ko'radigan hamma narsa turadi. Xuddi odam kabi: head — miya (ichki), body — tana (tashqi)."
       },
       {
         "s": "Yozib, darhol ko'rish",
-        "p": "Kod o'rganishning eng yaxshi usuli — natijani darhol ko'rish. h1 ichiga ismingizni yozib faylni brauzerda ochsangiz, ekranда katta harflar bilan ismingiz chiqadi. Mana shu 'men yaratdim' hissi — dasturlashда eng kuchli turtki."
+        "p": "Kod o'rganishning eng yaxshi usuli — natijani darhol ko'rish. h1 ichiga ismingizni yozib faylni brauzerda ochsangiz, ekranda katta harflar bilan ismingiz chiqadi. Mana shu 'men yaratdim' hissi — dasturlashda eng kuchli turtki."
       }
     ],
     "vizual": [
@@ -111,7 +111,7 @@ export const DARSLAR = {
     "hayotiy": [
       {
         "s": "Bozor ro'yxati",
-        "i": "Onangiz 'non, sut, tuxum' deб ro'yxat yozadi — bu aynan ul/li ro'yxatga o'xshaydi."
+        "i": "Onangiz 'non, sut, tuxum' deb ro'yxat yozadi — bu aynan ul/li ro'yxatga o'xshaydi."
       },
       {
         "s": "Eshik va yo'l",
@@ -274,7 +274,7 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Har element — quti (box)",
-        "p": "CSSда har bir element to'rt qatlamli quti sifatida ko'riladi: ichida kontent, uni o'rab turgan ichki bo'shliq (padding), chegara (border), va tashqi bo'shliq (margin). Bu 'box model' — layoutni tushunishning kaliti."
+        "p": "CSSda har bir element to'rt qatlamli quti sifatida ko'riladi: ichida kontent, uni o'rab turgan ichki bo'shliq (padding), chegara (border), va tashqi bo'shliq (margin). Bu 'box model' — layoutni tushunishning kaliti."
       },
       {
         "s": "Bo'shliqni boshqarish",
@@ -342,15 +342,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Internet — so'rov va javob",
-        "p": "Sahifani ochganingizda brauzeringiz (client) internet orqali serverga 'menga shu sahifani ber' degan so'rov yuboradi. Server javob sifatida HTML/CSS/JS fayllarni qaytaradi. Brauzer bularni o'qib, ekranда chizadi. Butun internet shu oddiy so'rov-javob ustiga qurilgan."
+        "p": "Sahifani ochganingizda brauzeringiz (client) internet orqali serverga 'menga shu sahifani ber' degan so'rov yuboradi. Server javob sifatida HTML/CSS/JS fayllarni qaytaradi. Brauzer bularni o'qib, ekranda chizadi. Butun internet shu oddiy so'rov-javob ustiga qurilgan."
       },
       {
         "s": "URL — manzil",
-        "p": "URL sahifaning aniq manzili: https://sayt.uz/dars degan manzilда https — protokol (himoyalangan aloqa), sayt.uz — domen (qaysi server), /dars — o'sha serverdagi aniq sahifa. Xuddi pochta manzili kabi: shahar, ko'cha, uy raqami."
+        "p": "URL sahifaning aniq manzili: https://sayt.uz/dars degan manzilda https — protokol (himoyalangan aloqa), sayt.uz — domen (qaysi server), /dars — o'sha serverdagi aniq sahifa. Xuddi pochta manzili kabi: shahar, ko'cha, uy raqami."
       },
       {
         "s": "Sayt qayerda yashaydi",
-        "p": "Sizning kompyuteringizdagi fayl faqat sizga ko'rinadi. Sayt boshqalar uchun ochiq bo'lishi uchun u serverга (hosting) joylanishi kerak — server doim yoqilgan, internetга ulangan kompyuter. Keyingi darslarда sahifangizni shunday serverга qo'yasiz (deploy)."
+        "p": "Sizning kompyuteringizdagi fayl faqat sizga ko'rinadi. Sayt boshqalar uchun ochiq bo'lishi uchun u serverga (hosting) joylanishi kerak — server doim yoqilgan, internetga ulangan kompyuter. Keyingi darslarda sahifangizni shunday serverga qo'yasiz (deploy)."
       }
     ],
     "vizual": [
@@ -409,16 +409,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Nega yaratuvchi xavfsizlikни bilishi shart",
-        "p": "Siz endi internetда faqat foydalanuvchi emas, yaratuvchisiz. Yasagan saytingizда boshqalarning ma'lumoti bo'lishi mumkin. Shuning uchun xavfsizlik — sizning mas'uliyatingiz. Avval o'zingizni himoya qilishni o'rganamiz."
+        "s": "Nega yaratuvchi xavfsizlikni bilishi shart",
+        "p": "Siz endi internetda faqat foydalanuvchi emas, yaratuvchisiz. Yasagan saytingizda boshqalarning ma'lumoti bo'lishi mumkin. Shuning uchun xavfsizlik — sizning mas'uliyatingiz. Avval o'zingizni himoya qilishni o'rganamiz."
       },
       {
         "s": "Kuchli parol",
-        "p": "Kuchli parol uzun (kamida 12 belgi), harf, raqam va belgilar aralashmasi bo'ladi. Eng muhimi — har sayt uchun boshqacha parol. Bitta parol hamma joyда — bittasi buzilса, hammasi ochiladi. Parol menejerlari (masalan brauzer) buni eslab turadi."
+        "p": "Kuchli parol uzun (kamida 12 belgi), harf, raqam va belgilar aralashmasi bo'ladi. Eng muhimi — har sayt uchun boshqacha parol. Bitta parol hamma joyda — bittasi buzilsa, hammasi ochiladi. Parol menejerlari (masalan brauzer) buni eslab turadi."
       },
       {
         "s": "Fishing va raqamli iz",
-        "p": "Fishing — soxta sahifa yoki xat orqali parolingizni o'g'irlash. 'Bankingizmiz, parolni tasdiqlang' degan xat kelса — havolani va manzilni diqqat bilan tekshiring. Raqamli iz esa — internetда qoldirgan har izingiz (post, rasm) uzoq saqlanadi, shuning uchun o'ylab joylang."
+        "p": "Fishing — soxta sahifa yoki xat orqali parolingizni o'g'irlash. 'Bankingizmiz, parolni tasdiqlang' degan xat kelsa — havolani va manzilni diqqat bilan tekshiring. Raqamli iz esa — internetda qoldirgan har izingiz (post, rasm) uzoq saqlanadi, shuning uchun o'ylab joylang."
       }
     ],
     "vizual": [
@@ -482,11 +482,11 @@ export const DARSLAR = {
       },
       {
         "s": "Yaxshi so'rov (prompt) yozish",
-        "p": "AIga qancha aniq va kontekstli so'rov bersangiz, javob shuncha yaxshi bo'ladi. 'Kod yoz' emas, 'JavaScriptда 1 dan 10 gacha juft sonlarни chiqaradigan kod yoz va tushuntir' deб so'rang. Kontekst va maqsad — yaxshi promptning asosi."
+        "p": "AIga qancha aniq va kontekstli so'rov bersangiz, javob shuncha yaxshi bo'ladi. 'Kod yoz' emas, 'JavaScriptda 1 dan 10 gacha juft sonlarni chiqaradigan kod yoz va tushuntir' deb so'rang. Kontekst va maqsad — yaxshi promptning asosi."
       },
       {
         "s": "O'rganish uchun, aldash uchun emas",
-        "p": "AIдан kodни ko'chirib, tushunmasdan topshirish — o'zингизни aldash. AIдан 'nega bunday?' deб so'rang, javobни sinang, o'zgartирib ko'ring. Shunда AI o'qituvchi bo'ladi. Ko'chirmachилик esa o'rganishни to'xtatади."
+        "p": "AIdan kodni ko'chirib, tushunmasdan topshirish — o'zingizni aldash. AIdan 'nega bunday?' deb so'rang, javobni sinang, o'zgartirib ko'ring. Shunda AI o'qituvchi bo'ladi. Ko'chirmachilik esa o'rganishni to'xtatadi."
       }
     ],
     "vizual": [
@@ -551,16 +551,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Blokни birlashtirish",
-        "p": "Bu birinchi 'mini-loyiha' — o'rgangan HTML va CSSни bitta to'liq sahifaда birlashtirasiz. Rejalashtiринг: qanday bo'limlar bo'ladi (sarlavha, rasm, men haqimда, qiziqishlar, havolalar). Reja bo'yicha ishlash chalkашликni kamaytiradi."
+        "s": "Blokni birlashtirish",
+        "p": "Bu birinchi 'mini-loyiha' — o'rgangan HTML va CSSni bitta to'liq sahifada birlashtirasiz. Rejalashtiring: qanday bo'limlar bo'ladi (sarlavha, rasm, men haqimda, qiziqishlar, havolalar). Reja bo'yicha ishlash chalkashlikni kamaytiradi."
       },
       {
-        "s": "Deploy — internetга chiqarish",
-        "p": "Deploy — sahifangizni serverга joylash, shundан keyin u internetда yashaydi va istagан odam ko'ra oladi. Netlify yoki GitHub Pages buni bepul va oson qiladi: faylni yuklaysiz, ular havola beradi. Bu havolani do'stларингизга yuborasiz."
+        "s": "Deploy — internetga chiqarish",
+        "p": "Deploy — sahifangizni serverga joylash, shundan keyin u internetda yashaydi va istagan odam ko'ra oladi. Netlify yoki GitHub Pages buni bepul va oson qiladi: faylni yuklaysiz, ular havola beradi. Bu havolani do'stlaringizga yuborasiz."
       },
       {
         "s": "Birinchi jonli havola",
-        "p": "Deployдан keyin sizда haqiqiy internet havolasi bo'ladi — masalan ismingiz.netlify.app. Bu sizning portfoliyanгиздаги birinchi ish. Har blok oxирида yangi loyiha qo'shib, portfoliyani o'stирасiz — bu kelajakда ish yoki o'qishга kirишда ko'rsатадиган namuна."
+        "p": "Deploydan keyin sizda haqiqiy internet havolasi bo'ladi — masalan ismingiz.netlify.app. Bu sizning portfoliyangizdagi birinchi ish. Har blok oxirida yangi loyiha qo'shib, portfoliyani o'stirasiz — bu kelajakda ish yoki o'qishga kirishda ko'rsatadigan namuna."
       }
     ],
     "vizual": [
@@ -624,19 +624,19 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Algoritm — qadamlar tili",
-        "p": "Algoritm — biror natijага olib boradigan aniq qadamlar ketma-ketligi. Choy damlash, osh pishiriш, maktabga borish — hammasi algoritm. Dasturlash aslida kompyuterga aniq, tartibli qadamlар berish san'ati. Noaniq bo'lsa — kompyuter tushunmaydi."
+        "p": "Algoritm — biror natijaga olib boradigan aniq qadamlar ketma-ketligi. Choy damlash, osh pishirish, maktabga borish — hammasi algoritm. Dasturlash aslida kompyuterga aniq, tartibli qadamlar berish san'ati. Noaniq bo'lsa — kompyuter tushunmaydi."
       },
       {
         "s": "JavaScript qayerda ishlaydi",
-        "p": "JavaScript (JS) — brauzerда ishlaydigan til. Uni ikki joyда yozish mumkin: sahifага <script> tegi ichida, yoki brauzer 'konsoli'да (F12 tugmasi bilan ochiladigan dasturchi oynasi). Boshda konsolда tajриба qilamiz — tez va oson."
+        "p": "JavaScript (JS) — brauzerda ishlaydigan til. Uni ikki joyda yozish mumkin: sahifaga <script> tegi ichida, yoki brauzer 'konsoli'da (F12 tugmasi bilan ochiladigan dasturchi oynasi). Boshda konsolda tajriba qilamiz — tez va oson."
       },
       {
         "s": "console.log — birinchi buyruq",
-        "p": "console.log() — qavs ichидаги narsani konsolга chiqaradi. Bu dasturchining eng ko'p ishlatadigan buyrug'i: natижани ko'rish, xatoни kuzatish uchun. console.log('Salom') yozsangiz — konsolда 'Salom' chiqadi."
+        "p": "console.log() — qavs ichidagi narsani konsolga chiqaradi. Bu dasturchining eng ko'p ishlatadigan buyrug'i: natijani ko'rish, xatoni kuzatish uchun. console.log('Salom') yozsangiz — konsolda 'Salom' chiqadi."
       },
       {
         "s": "Xatodan qo'rqmang",
-        "p": "Konsол ba'zан qizил xato ko'rsатади. Bu normal — hatто tajрибали dasturchилар ham kunда o'nlaб xato qiladi. Muhими — xatoни o'qib tushunish. Xato — dushман emas, yo'l ko'rсатувчи."
+        "p": "Konsol ba'zan qizil xato ko'rsatadi. Bu normal — hatto tajribali dasturchilar ham kunda o'nlab xato qiladi. Muhimi — xatoni o'qib tushunish. Xato — dushman emas, yo'l ko'rsatuvchi."
       }
     ],
     "vizual": [
@@ -700,15 +700,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "O'zgaruvchi — nomlangan quti",
-        "p": "Dastur ma'lumotни eslab qolиши uchun o'zgaruvchi ishlатади — bu ustiga yorliq yopishtirilган quti. 'yosh' qutисига 14 ni, 'ism' qutисига 'Ali' ni solиб qo'yasiz, keyин nomi orqали chaqиrasiz."
+        "p": "Dastur ma'lumotni eslab qolishi uchun o'zgaruvchi ishlatadi — bu ustiga yorliq yopishtirilgan quti. 'yosh' qutisiga 14 ni, 'ism' qutisiga 'Ali' ni solib qo'yasiz, keyin nomi orqali chaqirasiz."
       },
       {
-        "s": "let va const farqи",
-        "p": "let — keyин o'zгаradigan qiymat uchun (masalan ball, u o'sib boradi). const — o'zгармаydigan qiymat uchun (masalan tug'ilган yili). Odатда const ni ko'proq ishlating — xato kamaяди. Faqат haqиqатан o'zгарадиган narsага let."
+        "s": "let va const farqi",
+        "p": "let — keyin o'zgaradigan qiymat uchun (masalan ball, u o'sib boradi). const — o'zgarmaydigan qiymat uchun (masalan tug'ilgan yili). Odatda const ni ko'proq ishlating — xato kamayadi. Faqat haqiqatan o'zgaradigan narsaga let."
       },
       {
-        "s": "Uch asosий tur",
-        "p": "Ma'lumotning uch asosий turi bor: string — matn (qo'shtırnoq ichидa: 'Ali'), number — son (14, 3.5), boolean — mantiqiy (true/false, ha/yo'q). Turни bilish muhим: '5' (matn) va 5 (son) — boshqa-boshqa narsа."
+        "s": "Uch asosiy tur",
+        "p": "Ma'lumotning uch asosiy turi bor: string — matn (qo'shtırnoq ichida: 'Ali'), number — son (14, 3.5), boolean — mantiqiy (true/false, ha/yo'q). Turni bilish muhim: '5' (matn) va 5 (son) — boshqa-boshqa narsa."
       }
     ],
     "vizual": [
@@ -766,21 +766,21 @@ export const DARSLAR = {
       },
       {
         "s": "Anketa",
-        "i": "prompt — 'ismingiz nima?' deб so'ragan anketa: javobni oladi."
+        "i": "prompt — 'ismingiz nima?' deb so'ragan anketa: javobni oladi."
       }
     ],
     "material": [
       {
         "s": "Arifmetika va matn",
-        "p": "JSда sonlar bilan matematika qilasiz: + qo'shish, - ayirish, * ko'paytiriш, / bo'lish, % qoldiq. Qizиq tomoni: + belgisи matnlар bilan ishlаtилса, ularni yopиштиради ('birlashtириш'): 'Salom ' + 'Ali' = 'Salom Ali'."
+        "p": "JSda sonlar bilan matematika qilasiz: + qo'shish, - ayirish, * ko'paytirish, / bo'lish, % qoldiq. Qiziq tomoni: + belgisi matnlar bilan ishlatilsa, ularni yopishtiradi ('birlashtirish'): 'Salom ' + 'Ali' = 'Salom Ali'."
       },
       {
-        "s": "prompt — foydаланувchідан so'rash",
-        "p": "prompt('savol') foydаланувчига oynача ko'rsатиб, javобини oladi. Masalan let ism = prompt('Isming?') — foydаланувчи yozган narsа 'ism' o'zгарувчисига tushади. Bu dasturни interaktiv qiladi."
+        "s": "prompt — foydalanuvchidan so'rash",
+        "p": "prompt('savol') foydalanuvchiga oynacha ko'rsatib, javobini oladi. Masalan let ism = prompt('Isming?') — foydalanuvchi yozgan narsa 'ism' o'zgaruvchisiga tushadi. Bu dasturni interaktiv qiladi."
       },
       {
-        "s": "Matnnи songа aylantириш",
-        "p": "Muhим nozиклик: prompt HAR doim matn qaytаради. '5' + '3' matn sifatида '53' bo'ladi! Shuning uchun sonни Number() bilan aylantирасiz: Number('5') + Number('3') = 8. Bu ko'p boshlovчилар qiladigan xato."
+        "s": "Matnni songa aylantirish",
+        "p": "Muhim noziklik: prompt HAR doim matn qaytaradi. '5' + '3' matn sifatida '53' bo'ladi! Shuning uchun sonni Number() bilan aylantirasiz: Number('5') + Number('3') = 8. Bu ko'p boshlovchilar qiladigan xato."
       }
     ],
     "vizual": [
@@ -819,7 +819,7 @@ export const DARSLAR = {
       },
       {
         "s": "Birlashtirish",
-        "i": "Bo'laklar birga ishlaganда butun dastur tayyor bo'ladi."
+        "i": "Bo'laklar birga ishlaganda butun dastur tayyor bo'ladi."
       }
     ],
     "kod": {
@@ -844,15 +844,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Dekompozitsiya — bo'lib yechish",
-        "p": "Katta muammо qo'rqinчли ko'rinади. Sirи oddий: uni kичik, oson yechилаdigan bo'lakларga bo'lish. 'Kalkulyator yasaш' — katta. Lekin 'son olish + amal tanlash + hisоblash + natижани ko'rsатиш' — har biri oson."
+        "p": "Katta muammo qo'rqinchli ko'rinadi. Siri oddiy: uni kichik, oson yechiladigan bo'laklarga bo'lish. 'Kalkulyator yasash' — katta. Lekin 'son olish + amal tanlash + hisoblash + natijani ko'rsatish' — har biri oson."
       },
       {
-        "s": "Har bo'lakni alohида",
-        "p": "Bo'laklarga bo'linгандан keyin, har birини alohида yozib, sinаб ko'rasiz. Bu 'bo'l va hukmronlik qil' usuli. Katta dasturни ham shunday quriladi — bir marta hammасини emas, qism-qism."
+        "s": "Har bo'lakni alohida",
+        "p": "Bo'laklarga bo'lingandan keyin, har birini alohida yozib, sinab ko'rasiz. Bu 'bo'l va hukmronlik qil' usuli. Katta dasturni ham shunday quriladi — bir marta hammasini emas, qism-qism."
       },
       {
         "s": "Reja — izoh bilan",
-        "p": "Kod yozишдан oldin rejани izoh (comment) sifatида yozing. JSда izoh // bilan boshlанади va kompyuter uni o'qимайди — faqat siz uchun. Bu 'skelet' keyин kodни to'ldiришни osonlaшtiradi."
+        "p": "Kod yozishdan oldin rejani izoh (comment) sifatida yozing. JSda izoh // bilan boshlanadi va kompyuter uni o'qimaydi — faqat siz uchun. Bu 'skelet' keyin kodni to'ldirishni osonlashtiradi."
       }
     ],
     "vizual": [
@@ -901,7 +901,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Foydalanuvchidan ballini so'rang.",
-      "50 dan yuqori bo'lsa 'o'tdi', aks holda 'qayta' deб chiqaring."
+      "50 dan yuqori bo'lsa 'o'tdi', aks holda 'qayta' deb chiqaring."
     ],
     "hayotiy": [
       {
@@ -920,11 +920,11 @@ export const DARSLAR = {
       },
       {
         "s": "Taqqoslash belgilari",
-        "p": "Shart ichida taqqoslaymiz: > katta, < kichik, >= katta yoki teng, <= kichik yoki teng, === teng, !== teng emas. Diqqat: tenglikни tekshirishда === (uchta) ishlatiladi, = (bitta) esa qiymat berish uchun. Bu farqni adashtirmang."
+        "p": "Shart ichida taqqoslaymiz: > katta, < kichik, >= katta yoki teng, <= kichik yoki teng, === teng, !== teng emas. Diqqat: tenglikni tekshirishda === (uchta) ishlatiladi, = (bitta) esa qiymat berish uchun. Bu farqni adashtirmang."
       },
       {
         "s": "else — aks holda",
-        "p": "if dan keyin else qo'shsangiz — shart rost bo'lmaganda bajariladigan qismni beradi. 'Agar o'tган bo'lsa — tabriklaymiz, aks holda — qayta urин'. Shunda dastur ikkала yo'lni ham qamrab oladi."
+        "p": "if dan keyin else qo'shsangiz — shart rost bo'lmaganda bajariladigan qismni beradi. 'Agar o'tgan bo'lsa — tabriklaymiz, aks holda — qayta urin'. Shunda dastur ikkala yo'lni ham qamrab oladi."
       },
       {
         "kod": {
@@ -995,15 +995,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Bir nechta shartni birlashtirish",
-        "p": "Ba'zan bitta shart yetmaydi. && (VA) — ikkала shart ham rost bo'lishини talab qiladi. || (YOKI) — kamида bittаси rost bo'lса yetadi. Masalan 'yosh 13+ VA ruxsat bor' — attraksionga tushish uchun ikkаласи kerak."
+        "p": "Ba'zan bitta shart yetmaydi. && (VA) — ikkala shart ham rost bo'lishini talab qiladi. || (YOKI) — kamida bittasi rost bo'lsa yetadi. Masalan 'yosh 13+ VA ruxsat bor' — attraksionga tushish uchun ikkalasi kerak."
       },
       {
-        "s": "else if — variantлар zanjiri",
-        "p": "Ko'p variant bo'lganda else if ishlatiladi: birinchi shartни tekshiradi, rost bo'lmasа keyingiсига o'tади. Baholар tizimi klassik misol: 90+ = A, 70+ = B, 50+ = C, aks holда qayta. Zanjир yuqoridан pastга tekshiriladi."
+        "s": "else if — variantlar zanjiri",
+        "p": "Ko'p variant bo'lganda else if ishlatiladi: birinchi shartni tekshiradi, rost bo'lmasa keyingisiga o'tadi. Baholar tizimi klassik misol: 90+ = A, 70+ = B, 50+ = C, aks holda qayta. Zanjir yuqoridan pastga tekshiriladi."
       },
       {
-        "s": "Tartiб muhим",
-        "p": "else if zanjiriда tartiб muhим: eng qattиq (yuqori) shartни birinchi qo'ying. Agar 'ball >= 50' ni birinchi tekshirсangiz, 95 ballли ham 'C' oladi — chunki 95 ham 50 dan katta. Shuning uchun kattadан kичикка."
+        "s": "Tartib muhim",
+        "p": "else if zanjirida tartib muhim: eng qattiq (yuqori) shartni birinchi qo'ying. Agar 'ball >= 50' ni birinchi tekshirsangiz, 95 ballli ham 'C' oladi — chunki 95 ham 50 dan katta. Shuning uchun kattadan kichikka."
       }
     ],
     "vizual": [
@@ -1038,7 +1038,7 @@ export const DARSLAR = {
       },
       {
         "s": "Sikl g'oyasi",
-        "i": "Kompyuterga 'shu ishni N marta qil' deб aytish."
+        "i": "Kompyuterga 'shu ishni N marta qil' deb aytish."
       },
       {
         "s": "Qo'lda vs sikl",
@@ -1066,16 +1066,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Takrorни sezish",
-        "p": "Bir xil kodни qayta-qayta yozayotган bo'lсangiz — bu 'naqsh' (pattern), va u sikl kerakligини bildiradi. 1 dan 100 gacha sonlarни console.log bilan qo'lда yozib bo'lмайди — 100 qator! Aynан shu yerда sikl kerak."
+        "s": "Takrorni sezish",
+        "p": "Bir xil kodni qayta-qayta yozayotgan bo'lsangiz — bu 'naqsh' (pattern), va u sikl kerakligini bildiradi. 1 dan 100 gacha sonlarni console.log bilan qo'lda yozib bo'lmaydi — 100 qator! Aynan shu yerda sikl kerak."
       },
       {
-        "s": "Nega sikl kuchли",
-        "p": "Sikl bitta kodни ko'p marta ishlаtади — siz faqат 'nechа marta' va 'nima qilish'ни aytasiz. Bu vaqtни tejаyдi va xatoни kamaytиради: bir joyни to'g'риласangiz — hamma takrоrга ta'sир qiladi. Dasturlashнинг eng kuchли g'oyaларidан biri."
+        "s": "Nega sikl kuchli",
+        "p": "Sikl bitta kodni ko'p marta ishlatadi — siz faqat 'necha marta' va 'nima qilish'ni aytasiz. Bu vaqtni tejaydi va xatoni kamaytiradi: bir joyni to'g'rilasangiz — hamma takrorga ta'sir qiladi. Dasturlashning eng kuchli g'oyalaridan biri."
       },
       {
-        "s": "Naqshни topish mashqи",
-        "p": "Kundалик hayotда ham naqsh bor: har kuni dars, har hafta dam olish, har oy... Dasturlashда naqshни ko'ra bilish — professional dasturchи ko'nikмаси. Keyingi darsда bu naqshни haqiqий kodга — for siklига aylantiramiz."
+        "s": "Naqshni topish mashqi",
+        "p": "Kundalik hayotda ham naqsh bor: har kuni dars, har hafta dam olish, har oy... Dasturlashda naqshni ko'ra bilish — professional dasturchi ko'nikmasi. Keyingi darsda bu naqshni haqiqiy kodga — for sikliga aylantiramiz."
       }
     ],
     "vizual": [
@@ -1110,7 +1110,7 @@ export const DARSLAR = {
       },
       {
         "s": "Ichida ish",
-        "i": "Har aylanishda { } ичидаги kod ishlaydi."
+        "i": "Har aylanishda { } ichidagi kod ishlaydi."
       },
       {
         "s": "1 dan 10 gacha",
@@ -1139,11 +1139,11 @@ export const DARSLAR = {
     "material": [
       {
         "s": "for — aniq marta takror",
-        "p": "for sikli biror ishni aniq marta takrorlaydi. Uch qismи bor: boshlanish (let i = 1), shart (i <= 10), qadam (i++). 'i' — sanoqchi, har aylanishда o'zгаради. i++ — 'i ni bitta oshир' degani."
+        "p": "for sikli biror ishni aniq marta takrorlaydi. Uch qismi bor: boshlanish (let i = 1), shart (i <= 10), qadam (i++). 'i' — sanoqchi, har aylanishda o'zgaradi. i++ — 'i ni bitta oshir' degani."
       },
       {
         "s": "Qanday ishlaydi",
-        "p": "for sikli shunday yuradi: i ni 1 qiladi → shartни tekshiradi (1 <= 10 rost) → ичидаги kodни bajaradi → i++ (endi 2) → yana shart... Shart yolg'on bo'lганда (i 11 bo'lганда) to'xtaydi. Shu tariqa 1 dan 10 gacha aylanадi."
+        "p": "for sikli shunday yuradi: i ni 1 qiladi → shartni tekshiradi (1 <= 10 rost) → ichidagi kodni bajaradi → i++ (endi 2) → yana shart... Shart yolg'on bo'lganda (i 11 bo'lganda) to'xtaydi. Shu tariqa 1 dan 10 gacha aylanadi."
       },
       {
         "kod": {
@@ -1214,15 +1214,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "while — shartga qarab takror",
-        "p": "while sikli shart rost bo'lиб turgan ekan takrorlaydi. for dan farqи: for aniq marta (10 marta), while esa 'qachongacha' noma'lum bo'lганда ishlatiladi. Masalan 'to'g'ри javob kelgунча so'rayveriш'."
+        "p": "while sikli shart rost bo'lib turgan ekan takrorlaydi. for dan farqi: for aniq marta (10 marta), while esa 'qachongacha' noma'lum bo'lganda ishlatiladi. Masalan 'to'g'ri javob kelguncha so'rayverish'."
       },
       {
-        "s": "Sanoqchини unutmang",
-        "p": "while ичida siz o'zингиз o'zгарувчини o'zgartиришingiz kerak, aks holда shart hech qачон yolg'on bo'lмайди — bu 'cheksiz sikl', dastur qotиб qoladi. Har while ичида 'oxирига yaqinlashувчи' qadам bo'lиши shart."
+        "s": "Sanoqchini unutmang",
+        "p": "while ichida siz o'zingiz o'zgaruvchini o'zgartirishingiz kerak, aks holda shart hech qachon yolg'on bo'lmaydi — bu 'cheksiz sikl', dastur qotib qoladi. Har while ichida 'oxiriga yaqinlashuvchi' qadam bo'lishi shart."
       },
       {
         "s": "for va while — qaysi biri",
-        "p": "Qoida oddий: takror sonи oldindан ma'lum bo'lса — for (masalan 10 ta savol). Noma'lum bo'lса — while (masalan 'to'g'ри topgunча'). Ikkаласи bir ishни qila oladi, lekin to'g'ри tanlash kodни o'qishли qiladi."
+        "p": "Qoida oddiy: takror soni oldindan ma'lum bo'lsa — for (masalan 10 ta savol). Noma'lum bo'lsa — while (masalan 'to'g'ri topguncha'). Ikkalasi bir ishni qila oladi, lekin to'g'ri tanlash kodni o'qishli qiladi."
       }
     ],
     "vizual": [
@@ -1249,7 +1249,7 @@ export const DARSLAR = {
     "mavzular": [
       {
         "s": "Massiv yaratish",
-        "i": "[ ] ичида qiymatlar, vergul bilan ajratilgan."
+        "i": "[ ] ichida qiymatlar, vergul bilan ajratilgan."
       },
       {
         "s": "Indeks",
@@ -1285,16 +1285,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Massiv — bir joyда ko'p qiymat",
-        "p": "5 ta do'stning ismини 5 ta o'zгарувчида saqlash noqulай. Massiv — bitta o'zгарувчида butun ro'yxat: let dostlar = ['Ali', 'Vali', 'Sardor']. Kvadrat qavs [ ] massiv belgisи."
+        "s": "Massiv — bir joyda ko'p qiymat",
+        "p": "5 ta do'stning ismini 5 ta o'zgaruvchida saqlash noqulay. Massiv — bitta o'zgaruvchida butun ro'yxat: let dostlar = ['Ali', 'Vali', 'Sardor']. Kvadrat qavs [ ] massiv belgisi."
       },
       {
         "s": "Indeks — 0 dan boshlanadi",
-        "p": "Massив elementларига indeks orqали kirasiz — MUHIM: indeks 0 dan boshlanади! dostlar[0] — birinchi ('Ali'), dostlar[1] — ikkinchi. Bu ko'p boshlovчини chalkaшtiradi: birinchi element [0], [1] emas."
+        "p": "Massiv elementlariga indeks orqali kirasiz — MUHIM: indeks 0 dan boshlanadi! dostlar[0] — birinchi ('Ali'), dostlar[1] — ikkinchi. Bu ko'p boshlovchini chalkashtiradi: birinchi element [0], [1] emas."
       },
       {
         "s": "length va push",
-        "p": "dostlar.length — massivда nechта element borligини beradi. dostlar.push('Nodir') — oxирига yangi element qo'shади. Massив + sikl birga juda kuchли: sikl bilan har elementни aylanib chiqasiz (keyingi mavzu)."
+        "p": "dostlar.length — massivda nechta element borligini beradi. dostlar.push('Nodir') — oxiriga yangi element qo'shadi. Massiv + sikl birga juda kuchli: sikl bilan har elementni aylanib chiqasiz (keyingi mavzu)."
       }
     ],
     "vizual": [
@@ -1358,15 +1358,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Funksiya — qayta ishlatiladigan retsept",
-        "p": "Bir kodни ko'p joyда ishlаtишингиз kerak bo'lса — uni funksiyaga o'rайsiz. Funksiya — nomlangан retsept: bir marta yozasiz, ko'p marta chaqirasiz. function salom() { ... } deб e'lon qilib, salom() deб chaqirasiz."
+        "p": "Bir kodni ko'p joyda ishlatishingiz kerak bo'lsa — uni funksiyaga o'raysiz. Funksiya — nomlangan retsept: bir marta yozasiz, ko'p marta chaqirasiz. function salom() { ... } deb e'lon qilib, salom() deb chaqirasiz."
       },
       {
-        "s": "Parametr — kiruvchи ma'lumot",
-        "p": "Funksiyaга tashqаридан ma'lumot berish uchun parametr ishlatiladi: function salom(ism) — bu yerда ism parametr. salom('Ali') deб chaqirsangiz, ichида ism = 'Ali' bo'ladi. Shunда bitta funksiya turli ma'lumot bilan ishlайди."
+        "s": "Parametr — kiruvchi ma'lumot",
+        "p": "Funksiyaga tashqaridan ma'lumot berish uchun parametr ishlatiladi: function salom(ism) — bu yerda ism parametr. salom('Ali') deb chaqirsangiz, ichida ism = 'Ali' bo'ladi. Shunda bitta funksiya turli ma'lumot bilan ishlaydi."
       },
       {
-        "s": "return — natижани qaytariш",
-        "p": "Funksiya ish qiliб, natижани return bilan qaytаради. function kvadrat(n) { return n * n } — kvadrat(5) chaqirilса, 25 qaytаради. Bu qiymatни o'zgaruvchига olib, keyин ishlаtишingiz mumkin. return funksiyaнинг 'javobi'."
+        "s": "return — natijani qaytarish",
+        "p": "Funksiya ish qilib, natijani return bilan qaytaradi. function kvadrat(n) { return n * n } — kvadrat(5) chaqirilsa, 25 qaytaradi. Bu qiymatni o'zgaruvchiga olib, keyin ishlatishingiz mumkin. return funksiyaning 'javobi'."
       },
       {
         "kod": {
@@ -1409,7 +1409,7 @@ export const DARSLAR = {
       },
       {
         "s": "Sikl + shart bilan tekshirish",
-        "i": "Topilmaguncha so'rab, 'katta/kichik' deб yo'naltiramiz."
+        "i": "Topilmaguncha so'rab, 'katta/kichik' deb yo'naltiramiz."
       },
       {
         "s": "Funksiyalarga bo'lish",
@@ -1432,21 +1432,21 @@ export const DARSLAR = {
       },
       {
         "s": "Narx topish o'yini",
-        "i": "TVdagi 'narxni top' o'yini — katta/kichik deб yo'naltiriladi."
+        "i": "TVdagi 'narxni top' o'yini — katta/kichik deb yo'naltiriladi."
       }
     ],
     "material": [
       {
         "s": "Loyiha — bilimlarni birlashtirish",
-        "p": "Bu Blok 2 ning capstoni: o'zgaruvchi, shart, sikl va funksiyани bitta 'son topish' o'yinида birlashtirasiz. Har alohида o'rganган narsangiz endi birga ishlaydи — haqiqий dastur shunday quriladi."
+        "p": "Bu Blok 2 ning capstoni: o'zgaruvchi, shart, sikl va funksiyani bitta 'son topish' o'yinida birlashtirasiz. Har alohida o'rgangan narsangiz endi birga ishlaydi — haqiqiy dastur shunday quriladi."
       },
       {
         "s": "Tasodifiy son",
-        "p": "O'yin uchun kompyuter 'yashirин' son o'ylаши kerak. Math.random() 0 va 1 orasида tasodифий son beradi; Math.floor(Math.random() * 10) + 1 esa 1 dan 10 gacha butun son. Bu formulани hozircha yodлаб qo'ying — keyин chuqurroq tushunasiz."
+        "p": "O'yin uchun kompyuter 'yashirin' son o'ylashi kerak. Math.random() 0 va 1 orasida tasodifiy son beradi; Math.floor(Math.random() * 10) + 1 esa 1 dan 10 gacha butun son. Bu formulani hozircha yodlab qo'ying — keyin chuqurroq tushunasiz."
       },
       {
-        "s": "O'yin mantig'и",
-        "p": "O'yin: yashirин son bor, foydаланувчи taxmин qiladi. while sikli 'topilгунча' davom etади, if bilan 'katta/kичik' deб yo'naltиrasiz. Bu — shart va siklнинг real qo'llanилиши. Ishlаб bo'lганда, o'zингиз yasagан o'yinни o'ynаб ko'rasiz!"
+        "s": "O'yin mantig'i",
+        "p": "O'yin: yashirin son bor, foydalanuvchi taxmin qiladi. while sikli 'topilguncha' davom etadi, if bilan 'katta/kichik' deb yo'naltirasiz. Bu — shart va siklning real qo'llanilishi. Ishlab bo'lganda, o'zingiz yasagan o'yinni o'ynab ko'rasiz!"
       }
     ],
     "vizual": [
@@ -1510,15 +1510,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "DOM — sahifaning JS ko'rinishi",
-        "p": "Hozirgacha JS konsolда ishladi. Endi eng qiziq qism: JS sahifaning O'ZINИ o'zgartiradi. Buning uchun DOM ('Document Object Model') bor — brauzer sahifани JS uchun obyektlar daraxtига aylantиради, har teg — obyekt."
+        "p": "Hozirgacha JS konsolda ishladi. Endi eng qiziq qism: JS sahifaning O'ZINI o'zgartiradi. Buning uchun DOM ('Document Object Model') bor — brauzer sahifani JS uchun obyektlar daraxtiga aylantiradi, har teg — obyekt."
       },
       {
-        "s": "document — kirish nuqtasи",
-        "p": "document — butun sahifага kirish nuqtаси, JSнинг 'sahifага ulanган pulti'. Undan foydаланиб istalgан elementни topasiz va o'zгартирasiz. Masalan document.title — sahifa sarlavhaси."
+        "s": "document — kirish nuqtasi",
+        "p": "document — butun sahifaga kirish nuqtasi, JSning 'sahifaga ulangan pulti'. Undan foydalanib istalgan elementni topasiz va o'zgartirasiz. Masalan document.title — sahifa sarlavhasi."
       },
       {
         "s": "Element tanlash",
-        "p": "document.querySelector('h1') — sahifадаги birinchi h1 ni topади. CSS selektorlaridан foydаланади: '.karta' (class), '#menu' (id), 'p' (teg). Topilган elementни o'zгарувчига olib, keyин matnини, rangини o'zгартирasiz."
+        "p": "document.querySelector('h1') — sahifadagi birinchi h1 ni topadi. CSS selektorlaridan foydalanadi: '.karta' (class), '#menu' (id), 'p' (teg). Topilgan elementni o'zgaruvchiga olib, keyin matnini, rangini o'zgartirasiz."
       }
     ],
     "vizual": [
@@ -1549,7 +1549,7 @@ export const DARSLAR = {
       },
       {
         "s": "innerHTML",
-        "i": "Element ичига HTML joylash."
+        "i": "Element ichiga HTML joylash."
       },
       {
         "s": "style o'zgartirish",
@@ -1581,16 +1581,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Elementни o'zgartириш",
-        "p": "Elementни tanlaгандан keyin uni o'zgartирasiz. textContent — element ичидаги matnни o'qиш yoki almaштириш. element.textContent = 'Yangi' — matn darhol o'zгаради. Bu — sahifани jonli qilishнинг birinchi qadami."
+        "s": "Elementni o'zgartirish",
+        "p": "Elementni tanlagandan keyin uni o'zgartirasiz. textContent — element ichidagi matnni o'qish yoki almashtirish. element.textContent = 'Yangi' — matn darhol o'zgaradi. Bu — sahifani jonli qilishning birinchi qadami."
       },
       {
-        "s": "style bilan ko'rinishни o'zgartириш",
-        "p": "element.style orqali CSSни JSдан boshqarasiz: element.style.color = 'red', element.style.fontSize = '30px'. Diqqat: JSда fontSize (bir so'z, katta S), CSSдаги font-size emas. Bu farqни eslab qoling."
+        "s": "style bilan ko'rinishni o'zgartirish",
+        "p": "element.style orqali CSSni JSdan boshqarasiz: element.style.color = 'red', element.style.fontSize = '30px'. Diqqat: JSda fontSize (bir so'z, katta S), CSSdagi font-size emas. Bu farqni eslab qoling."
       },
       {
         "s": "innerHTML — HTML joylash",
-        "p": "textContent faqат matn qo'yади. Agar HTML ham qo'yмоqchи bo'lсangiz (masalan <b> qalin), innerHTML ishlatiladi: element.innerHTML = '<b>Qalin matn</b>'. Ehtiyot bo'ling — innerHTML kuchли, lekin tashqи ma'lumot bilan xavfли bo'lиши mumkin."
+        "p": "textContent faqat matn qo'yadi. Agar HTML ham qo'ymoqchi bo'lsangiz (masalan <b> qalin), innerHTML ishlatiladi: element.innerHTML = '<b>Qalin matn</b>'. Ehtiyot bo'ling — innerHTML kuchli, lekin tashqi ma'lumot bilan xavfli bo'lishi mumkin."
       }
     ],
     "vizual": [
@@ -1621,7 +1621,7 @@ export const DARSLAR = {
       },
       {
         "s": "addEventListener",
-        "i": "Elementga 'shu hodisada shuni qil' deб bog'lash."
+        "i": "Elementga 'shu hodisada shuni qil' deb bog'lash."
       },
       {
         "s": "click hodisasi",
@@ -1653,12 +1653,12 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Hodisa — interaktivlik yuragи",
-        "p": "Sahifани haqиqий interaktiv qiladigan narsа — hodisa (event): foydаланувчи tugma bosса, matn yozса, sichqonча surса. JS bu hodisаларни 'tinglай' oladi va javобан kod ishga tushiради. Tugma bosиш — eng ko'p ishlаtиладиган hodisa."
+        "s": "Hodisa — interaktivlik yuragi",
+        "p": "Sahifani haqiqiy interaktiv qiladigan narsa — hodisa (event): foydalanuvchi tugma bossa, matn yozsa, sichqoncha sursa. JS bu hodisalarni 'tinglay' oladi va javoban kod ishga tushiradi. Tugma bosish — eng ko'p ishlatiladigan hodisa."
       },
       {
         "s": "addEventListener",
-        "p": "element.addEventListener('click', funksiya) — 'bu element bosилса, shu funksiyани ishga tushир' degani. Birinchи argument — hodisa turi ('click'), ikkinchisi — bajariladigan kod. Bu — zamonaviy JSнинг asosий usuli."
+        "p": "element.addEventListener('click', funksiya) — 'bu element bosilsa, shu funksiyani ishga tushir' degani. Birinchi argument — hodisa turi ('click'), ikkinchisi — bajariladigan kod. Bu — zamonaviy JSning asosiy usuli."
       },
       {
         "kod": {
@@ -1696,7 +1696,7 @@ export const DARSLAR = {
       },
       {
         "s": ".value",
-        "i": "Input ичiga yozilgan qiymatni o'qish."
+        "i": "Input ichiga yozilgan qiymatni o'qish."
       },
       {
         "s": "Tugma + input birga",
@@ -1728,16 +1728,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Input — foydalanuvchi ma'lumotи",
-        "p": "prompt oynача chiqаради — chiroyли emas. Haqиqий ilovалар input maydonидан foydаланади: foydаланувчи katakка yozади, siz olasiz. Bu — professional usul, formaлар, qidiruv, login — hammаси input bilan."
+        "s": "Input — foydalanuvchi ma'lumoti",
+        "p": "prompt oynacha chiqaradi — chiroyli emas. Haqiqiy ilovalar input maydonidan foydalanadi: foydalanuvchi katakka yozadi, siz olasiz. Bu — professional usul, formalar, qidiruv, login — hammasi input bilan."
       },
       {
-        "s": ".value — kiritilган qiymat",
-        "p": "input elementнинг .value xususiyati — foydаланувчи yozган matn. let ism = document.querySelector('#ism').value — input ичидаги matnни oladi. Bu qiymatни keyин ishlаtасиз: ekranga chiqариш, hisoblash va h.k."
+        "s": ".value — kiritilgan qiymat",
+        "p": "input elementning .value xususiyati — foydalanuvchi yozgan matn. let ism = document.querySelector('#ism').value — input ichidagi matnni oladi. Bu qiymatni keyin ishlatasiz: ekranga chiqarish, hisoblash va h.k."
       },
       {
         "s": "Tugma + input birga",
-        "p": "Odатда input va tugма birga ishlайди: foydаланувчи yozади, tugмани bosади, siz .value ni olib javob berasiz. addEventListener ичида input.value ni o'qиб, natижани sahifага chiqаrasiz. Bu naqsh — barча interaktiv ilovаларда uchraydi."
+        "p": "Odatda input va tugma birga ishlaydi: foydalanuvchi yozadi, tugmani bosadi, siz .value ni olib javob berasiz. addEventListener ichida input.value ni o'qib, natijani sahifaga chiqarasiz. Bu naqsh — barcha interaktiv ilovalarda uchraydi."
       }
     ],
     "vizual": [
@@ -1795,21 +1795,21 @@ export const DARSLAR = {
       },
       {
         "s": "'To'liq o'qish'",
-        "i": "Yangiликларда tugmani bosasiz — yashirin matn ochiladi."
+        "i": "Yangiliklarda tugmani bosasiz — yashirin matn ochiladi."
       }
     ],
     "material": [
       {
-        "s": "Ko'rsатиш va yashириш",
-        "p": "Dinamик sahifа elementларни ko'rsатади va yashиради. style.display = 'none' — yashиради, 'block' — ko'rsатади. Masalan 'Ko'proq o'qиш' tugмаси — bosилса yashирин matn ochилади. Bu foydаланувчи tajрибасини yaxshилайди."
+        "s": "Ko'rsatish va yashirish",
+        "p": "Dinamik sahifa elementlarni ko'rsatadi va yashiradi. style.display = 'none' — yashiradi, 'block' — ko'rsatadi. Masalan 'Ko'proq o'qish' tugmasi — bosilsa yashirin matn ochiladi. Bu foydalanuvchi tajribasini yaxshilaydi."
       },
       {
-        "s": "classList — class boshqаriш",
-        "p": "Elementга CSS class qo'shиш/olиб tashlaш kuchли usul: element.classList.add('faol'), .remove('faol'), .toggle('faol') (bor bo'lса olади, yo'q bo'lса qo'shади). Shunда butun ko'rinишни bitta class bilan boshqarasiz — JSда faqат class almaштирasiz."
+        "s": "classList — class boshqarish",
+        "p": "Elementga CSS class qo'shish/olib tashlash kuchli usul: element.classList.add('faol'), .remove('faol'), .toggle('faol') (bor bo'lsa oladi, yo'q bo'lsa qo'shadi). Shunda butun ko'rinishni bitta class bilan boshqarasiz — JSda faqat class almashtirasiz."
       },
       {
-        "s": "Element yaratiш",
-        "p": "document.createElement('li') — yangi element yaratади, keyин parent.appendChild(yangi) bilan sahifага qo'shади. Bu — ro'yxatга dinamик element qo'shишнинг asosи (masalan 'vazифа qo'shиш'). Keyingi bloklarда ko'p ishlаtасiz."
+        "s": "Element yaratish",
+        "p": "document.createElement('li') — yangi element yaratadi, keyin parent.appendChild(yangi) bilan sahifaga qo'shadi. Bu — ro'yxatga dinamik element qo'shishning asosi (masalan 'vazifa qo'shish'). Keyingi bloklarda ko'p ishlatasiz."
       }
     ],
     "vizual": [
@@ -1832,7 +1832,7 @@ export const DARSLAR = {
     "n": 26,
     "nom": "Sahifadagi holat (ball/hisob)",
     "natija": "Natija hisoblanadi",
-    "kirish": "O'zgaruvchi (holat) + DOM birga ishlaganda ilova ballarni hisoblab, ekranда ko'rsata oladi.",
+    "kirish": "O'zgaruvchi (holat) + DOM birga ishlaganda ilova ballarni hisoblab, ekranda ko'rsata oladi.",
     "mavzular": [
       {
         "s": "Holat o'zgaruvchisi",
@@ -1873,11 +1873,11 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Holat — o'zgaruvchi + ekran",
-        "p": "'Holat' (state) — dasturнинг joriй ma'lumoti (masalan ball). Interaktiv ilovада holat o'zгаради, ekran esa uni aks ettиради. Ball o'zгарувчиси + uni ko'rсатувчи element = eng oddий holat boshqаruvи."
+        "p": "'Holat' (state) — dasturning joriy ma'lumoti (masalan ball). Interaktiv ilovada holat o'zgaradi, ekran esa uni aks ettiradi. Ball o'zgaruvchisi + uni ko'rsatuvchi element = eng oddiy holat boshqaruvi."
       },
       {
         "s": "Tugma → holat → ekran",
-        "p": "Naqsh shunday: tugма bosилади → holat o'zгаради (ball = ball + 1) → ekran yangилаnади (element.textContent = ball). Bu uchtalik — barча interaktiv ilovанинг yuragи. Katta ilovалар ham shu g'oya ustiga quriladi, faqат kattaроq."
+        "p": "Naqsh shunday: tugma bosiladi → holat o'zgaradi (ball = ball + 1) → ekran yangilanadi (element.textContent = ball). Bu uchtalik — barcha interaktiv ilovaning yuragi. Katta ilovalar ham shu g'oya ustiga quriladi, faqat kattaroq."
       },
       {
         "kod": {
@@ -1948,15 +1948,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "CSS + JS = jonli effekt",
-        "p": "Zamonaviy saytlар silliq harakатли. Sirи: CSS transition o'zгаришni sekин, silliq qiladi, JS esa o'sha o'zгаришни (class qo'shиш orqали) ishga tushиради. Bu ikkисининг birlaшмаси — professional his."
+        "p": "Zamonaviy saytlar silliq harakatli. Siri: CSS transition o'zgarishni sekin, silliq qiladi, JS esa o'sha o'zgarishni (class qo'shish orqali) ishga tushiradi. Bu ikkisining birlashmasi — professional his."
       },
       {
-        "s": "transition — silliqlиk",
-        "p": "CSSда transition: 0.3s qo'ysangiz — o'sha elementнинг har o'zгариши (rang, o'lcham) 0.3 soniyада silliq bo'ladi, sakramаydi. Keyин JS bilan class qo'shганда, o'zгариш animatsияли ko'rinади."
+        "s": "transition — silliqlik",
+        "p": "CSSda transition: 0.3s qo'ysangiz — o'sha elementning har o'zgarishi (rang, o'lcham) 0.3 soniyada silliq bo'ladi, sakramaydi. Keyin JS bilan class qo'shganda, o'zgarish animatsiyali ko'rinadi."
       },
       {
-        "s": "Me'yorда ishlating",
-        "p": "Animatsия yaxshи, lekin ko'p bo'lса — chalg'итади va sekинлаштиради. Qoida: animatsия foydаланувчига 'nima bo'ldi'ни tushuntирса — yaxshи. Faqат ko'rk uchun ortiqча harakат — yomon. Kam, lekin ma'noли."
+        "s": "Me'yorda ishlating",
+        "p": "Animatsiya yaxshi, lekin ko'p bo'lsa — chalg'itadi va sekinlashtiradi. Qoida: animatsiya foydalanuvchiga 'nima bo'ldi'ni tushuntirsa — yaxshi. Faqat ko'rk uchun ortiqcha harakat — yomon. Kam, lekin ma'noli."
       }
     ],
     "vizual": [
@@ -2019,16 +2019,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Debug — dasturchи san'atи",
-        "p": "Har dasturchи xato qiladi — muhими uni topib tuzаtа bilish. Bu 'debug' deyilади. Debug — ayب emas, balки asosий ko'nikма. Tajрибали dasturchи tez debug qiladi, o'rганувчи esa buни mashq qilади."
+        "s": "Debug — dasturchi san'ati",
+        "p": "Har dasturchi xato qiladi — muhimi uni topib tuzata bilish. Bu 'debug' deyiladi. Debug — ayب emas, balki asosiy ko'nikma. Tajribali dasturchi tez debug qiladi, o'rganuvchi esa buni mashq qiladi."
       },
       {
-        "s": "Konsол — birinchi do'st",
-        "p": "Xato bo'lганда brauzer konsоли (F12) qizил xabar ko'rсатади: qaysи fayl, qaysи qatorда muammо. Bu xabarни o'qиш — debugнинг birinchi qadами. console.log bilan esa qiymatларни kuzатиб, qayerда buzилганини topasiz."
+        "s": "Konsol — birinchi do'st",
+        "p": "Xato bo'lganda brauzer konsoli (F12) qizil xabar ko'rsatadi: qaysi fayl, qaysi qatorda muammo. Bu xabarni o'qish — debugning birinchi qadami. console.log bilan esa qiymatlarni kuzatib, qayerda buzilganini topasiz."
       },
       {
-        "s": "Ko'p uchraydiган xatolar",
-        "p": "Eng ko'p: imlo xatosи (querySlector), yopilмаgan qavs yoki tirnoq, mavjud bo'lмаган element (null), turlарни adashtириш (matn/son). Bularни bilsangiz — ko'p muammони tez topasiz. Debug — bosqichма-bosqич tekshiриш sabri."
+        "s": "Ko'p uchraydigan xatolar",
+        "p": "Eng ko'p: imlo xatosi (querySlector), yopilmagan qavs yoki tirnoq, mavjud bo'lmagan element (null), turlarni adashtirish (matn/son). Bularni bilsangiz — ko'p muammoni tez topasiz. Debug — bosqichma-bosqich tekshirish sabri."
       }
     ],
     "vizual": [
@@ -2092,16 +2092,16 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Interaktiv o'yin — hammаси birga",
-        "p": "Blok 3 capstoni: DOM, hodisа va holatни birlaштириб kичik o'yin yasайсiz. 'Reaksия' (chироq yonганда tez bos), 'klik' (5 soniyада nechта) yoki 'xotira' — tanlov sizniki. Endi o'zингиз interaktiv mahsulот yaratasiz."
+        "s": "Interaktiv o'yin — hammasi birga",
+        "p": "Blok 3 capstoni: DOM, hodisa va holatni birlashtirib kichik o'yin yasaysiz. 'Reaksiya' (chiroq yonganda tez bos), 'klik' (5 soniyada nechta) yoki 'xotira' — tanlov sizniki. Endi o'zingiz interaktiv mahsulot yaratasiz."
       },
       {
         "s": "Interfeys + mantiq",
-        "p": "O'yinнинг ikки qismi: ko'riниш (HTML+CSS: tugma, hisob, natижа) va mantiq (JS: hodisа, holat, ball). Avval ko'rinишни yasайсiz, keyин jonlantирasiz. Bu ajratish — professional ishlаш uslubи."
+        "p": "O'yinning ikki qismi: ko'rinish (HTML+CSS: tugma, hisob, natija) va mantiq (JS: hodisa, holat, ball). Avval ko'rinishni yasaysiz, keyin jonlantirasiz. Bu ajratish — professional ishlash uslubi."
       },
       {
-        "s": "Vaqт va tugash",
-        "p": "Ko'p o'yinда vaqт cheklovи bor. setTimeout(funksiya, 5000) — 5 soniyадан keyин funksiyани ishga tushиради (5000 millisекунd). Buни ishlаtиб 'vaqт tugади, natижа: X' qilasiz. Bu — o'yinга yakун va qiziqиш beradi."
+        "s": "Vaqt va tugash",
+        "p": "Ko'p o'yinda vaqt cheklovi bor. setTimeout(funksiya, 5000) — 5 soniyadan keyin funksiyani ishga tushiradi (5000 millisekund). Buni ishlatib 'vaqt tugadi, natija: X' qilasiz. Bu — o'yinga yakun va qiziqish beradi."
       }
     ],
     "vizual": [
@@ -2162,15 +2162,15 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Capstone — o'z loyihangiz",
-        "p": "Capstone — barча Basic bilимingizни birlaштирувчи shaxsий loyiha. Muhим: bu loyihани Pro modulида HAQIQIY ilovага aylantиrasiz (login, ma'lumot bazаси qo'shиб). Shuning uchun o'zингизга yoqadigan, kengaytириш mumkin bo'lган g'oya tanlang."
+        "p": "Capstone — barcha Basic bilimingizni birlashtiruvchi shaxsiy loyiha. Muhim: bu loyihani Pro modulida HAQIQIY ilovaga aylantirasiz (login, ma'lumot bazasi qo'shib). Shuning uchun o'zingizga yoqadigan, kengaytirish mumkin bo'lgan g'oya tanlang."
       },
       {
-        "s": "Yaxshи g'oya belgилari",
-        "p": "Yaxshи capstone: sizga qiziq, tugataдиган darajада oddий, lekin kengaytириш mumkin. Masalan viktorина, xotира o'yини, xarajат hisoblagич. Juda katta ('Instagram yasайман') yoki juda mayда bo'lмаsin — o'rtача."
+        "s": "Yaxshi g'oya belgilari",
+        "p": "Yaxshi capstone: sizga qiziq, tugatadigan darajada oddiy, lekin kengaytirish mumkin. Masalan viktorina, xotira o'yini, xarajat hisoblagich. Juda katta ('Instagram yasayman') yoki juda mayda bo'lmasin — o'rtacha."
       },
       {
-        "s": "Reja avval, kod keyин",
-        "p": "Kodга o'tишдан oldin qog'ozда rejалаштиринг: qanday ekranлар, tugмалар, ma'lumот oqimи. 'Wireframe' — sodda eskiz. Rejа bilan ishlаш chalkашликни kamaytиради va vaqт tejайди. Me'mор ham avval chizма chizади."
+        "s": "Reja avval, kod keyin",
+        "p": "Kodga o'tishdan oldin qog'ozda rejalashtiring: qanday ekranlar, tugmalar, ma'lumot oqimi. 'Wireframe' — sodda eskiz. Reja bilan ishlash chalkashlikni kamaytiradi va vaqt tejaydi. Me'mor ham avval chizma chizadi."
       }
     ],
     "vizual": [
@@ -2209,7 +2209,7 @@ export const DARSLAR = {
       },
       {
         "s": "Mobilga moslik boshlanishi",
-        "i": "Kichik ekranда ham chiroyli bo'lishini o'ylash."
+        "i": "Kichik ekranda ham chiroyli bo'lishini o'ylash."
       }
     ],
     "kod": {
@@ -2233,12 +2233,12 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Interfeysни qurish",
-        "p": "Endi loyihangizнинг ko'rinишини yasайсiz — foydаланувчи ko'radigan qism. HTML bilan tuzилма (tugмалар, maydonlar, sarlavhа), CSS bilan bezаk. Bu bosqichда mantиq (JS) hali yo'q — faqат 'skelet va kiyim'."
+        "s": "Interfeysni qurish",
+        "p": "Endi loyihangizning ko'rinishini yasaysiz — foydalanuvchi ko'radigan qism. HTML bilan tuzilma (tugmalar, maydonlar, sarlavha), CSS bilan bezak. Bu bosqichda mantiq (JS) hali yo'q — faqat 'skelet va kiyim'."
       },
       {
-        "s": "Avval tuzilма, keyин bezаk",
-        "p": "Tartиб: avval HTML bilan barча kerakли elementларни qo'ying (ishlаmаса ham), keyин CSS bilan bezаng. Bir vaqтда ikkисини qilишга urинмang — chalkаshasiz. Avval 'nima bor', keyин 'qanday ko'rinади'."
+        "s": "Avval tuzilma, keyin bezak",
+        "p": "Tartib: avval HTML bilan barcha kerakli elementlarni qo'ying (ishlamasa ham), keyin CSS bilan bezang. Bir vaqtda ikkisini qilishga urinmang — chalkashasiz. Avval 'nima bor', keyin 'qanday ko'rinadi'."
       }
     ],
     "vizual": [
@@ -2302,11 +2302,11 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Loyiha 'miyasi'",
-        "p": "Endi JS bilan loyihанинг mantиqини — 'miyaсини' yozasiz. Avval ma'lumот (o'zгарувчи, massив), keyин asosий funksiya. Masalan viktоринада: savollар massivи + 'keyingi savol' funksiyasи."
+        "p": "Endi JS bilan loyihaning mantiqini — 'miyasini' yozasiz. Avval ma'lumot (o'zgaruvchi, massiv), keyin asosiy funksiya. Masalan viktorinada: savollar massivi + 'keyingi savol' funksiyasi."
       },
       {
-        "s": "Konsолда sinаб ko'ring",
-        "p": "Interfeysга ulашдан oldin mantиqni console.log bilan sinang. Funksiya to'g'ри ishлаяptiми? Ma'lumот to'g'ри keляptiми? Konsолда tekshiриш — interfeys bilan aralashтирмасдан, xatoни tez topишга yordam beradi."
+        "s": "Konsolda sinab ko'ring",
+        "p": "Interfeysga ulashdan oldin mantiqni console.log bilan sinang. Funksiya to'g'ri ishlayaptimi? Ma'lumot to'g'ri kelyaptimi? Konsolda tekshirish — interfeys bilan aralashtirmasdan, xatoni tez topishga yordam beradi."
       }
     ],
     "vizual": [
@@ -2337,7 +2337,7 @@ export const DARSLAR = {
       },
       {
         "s": "Input olish",
-        "i": "Foydalanuvchi kiritган ma'lumotni ishlatish."
+        "i": "Foydalanuvchi kiritgan ma'lumotni ishlatish."
       },
       {
         "s": "Holatni yangilash",
@@ -2369,12 +2369,12 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Interfeysни mantиqга ulаш",
-        "p": "Endi ikки qismні birlaштирasiz: tugмалар (interfeys) va funksiyalар (mantиq). addEventListener bilan har tugмани kerakли funksiyага bog'lайsiz. Bosилганда — mantиq ishlайди, holat o'zгаради, ekran yangилаnади."
+        "s": "Interfeysni mantiqga ulash",
+        "p": "Endi ikki qismni birlashtirasiz: tugmalar (interfeys) va funksiyalar (mantiq). addEventListener bilan har tugmani kerakli funksiyaga bog'laysiz. Bosilganda — mantiq ishlaydi, holat o'zgaradi, ekran yangilanadi."
       },
       {
         "s": "To'liq oqim",
-        "p": "Foydаланувчи tugмани bosади → funksiya ishlайди → holat (ball, joriй savol) o'zгаради → ekран yangilanади. Bu tsikl har harakатда takrorlanадi. Loyihangiz endi jonли — foydаланувчи bilan 'gaplashади'."
+        "p": "Foydalanuvchi tugmani bosadi → funksiya ishlaydi → holat (ball, joriy savol) o'zgaradi → ekran yangilanadi. Bu tsikl har harakatda takrorlanadi. Loyihangiz endi jonli — foydalanuvchi bilan 'gaplashadi'."
       }
     ],
     "vizual": [
@@ -2437,12 +2437,12 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Ball, natижа, sayqал",
-        "p": "Loyihани to'ldirasiz: ball tizimи (to'g'ри javobга +1), yakuний natижа xabari ('siz 8/10 topding'), va CSS sayqal (rang, bo'shliq, shrift). Bu detallar loyihани 'tugallanган' his qildiради."
+        "s": "Ball, natija, sayqal",
+        "p": "Loyihani to'ldirasiz: ball tizimi (to'g'ri javobga +1), yakuniy natija xabari ('siz 8/10 topding'), va CSS sayqal (rang, bo'shliq, shrift). Bu detallar loyihani 'tugallangan' his qildiradi."
       },
       {
-        "s": "Responsive — har ekranга",
-        "p": "Loyihа telefonда ham chиройли bo'lиши kerak. @media (max-width: 600px) { ... } — kичik ekranда boshqача uslub beradi (masalan tugмалар to'liq kенglik). Telefonда ochib sinang — o'quvchилар ko'pincha telefonда ishlайди."
+        "s": "Responsive — har ekranga",
+        "p": "Loyiha telefonda ham chiroyli bo'lishi kerak. @media (max-width: 600px) { ... } — kichik ekranda boshqacha uslub beradi (masalan tugmalar to'liq kenglik). Telefonda ochib sinang — o'quvchilar ko'pincha telefonda ishlaydi."
       }
     ],
     "vizual": [
@@ -2501,12 +2501,12 @@ export const DARSLAR = {
     ],
     "material": [
       {
-        "s": "Deploy — internetга chiqариш",
-        "p": "Loyihани Netlify yoki GitHub Pages orqали internetга qo'yasiz. Faylни yuklaysiz — ular jonли havola beradi. Endi loyihангизни istalgан odam, istalgан qurilмада ochа oladi. Bu — haqиqий mahsulot bo'lиш belgисi."
+        "s": "Deploy — internetga chiqarish",
+        "p": "Loyihani Netlify yoki GitHub Pages orqali internetga qo'yasiz. Faylni yuklaysiz — ular jonli havola beradi. Endi loyihangizni istalgan odam, istalgan qurilmada ocha oladi. Bu — haqiqiy mahsulot bo'lish belgisi."
       },
       {
-        "s": "Taqdimот — dasturchи ko'nikмаси",
-        "p": "Dasturchи faqат kod yozмайди — ishини taqdim ham etади. Yaxshи taqdimот: muammо (nima uchun?) → yechim (nima yasadingiz?) → jonли demo (ko'rsатиш). Mashq qiling — takrоr qo'rquvни kamaytиради."
+        "s": "Taqdimot — dasturchi ko'nikmasi",
+        "p": "Dasturchi faqat kod yozmaydi — ishini taqdim ham etadi. Yaxshi taqdimot: muammo (nima uchun?) → yechim (nima yasadingiz?) → jonli demo (ko'rsatish). Mashq qiling — takror qo'rquvni kamaytiradi."
       }
     ],
     "vizual": [
@@ -2567,11 +2567,11 @@ export const DARSLAR = {
     "material": [
       {
         "s": "Demo-day — himoya",
-        "p": "Basic yakuni! Loyihангизни guruh yoki ota-ona oldida taqdim qilasiz va 'Yaratuvchi' darajа sertifikatини olasiz. Bu — birinchi katta yutuq: endi siz brauzerда ishlаyдиган interaktiv narsа yasай olasiz."
+        "p": "Basic yakuni! Loyihangizni guruh yoki ota-ona oldida taqdim qilasiz va 'Yaratuvchi' daraja sertifikatini olasiz. Bu — birinchi katta yutuq: endi siz brauzerda ishlaydigan interaktiv narsa yasay olasiz."
       },
       {
-        "s": "Refleksия va keyingi qadам",
-        "p": "Nimани o'rgandim, qaysи qism qiyин bo'ldi, keyin nima o'rganмоqchиman — bu savollarга javob bering. Va eng muhими: Pro'да bu loyihангизга nima qo'shса bo'ladi? Login? Ballni saqlash? Bu — keyingi bosqичга ko'prик."
+        "s": "Refleksiya va keyingi qadam",
+        "p": "Nimani o'rgandim, qaysi qism qiyin bo'ldi, keyin nima o'rganmoqchiman — bu savollarga javob bering. Va eng muhimi: Pro'da bu loyihangizga nima qo'shsa bo'ladi? Login? Ballni saqlash? Bu — keyingi bosqichga ko'prik."
       }
     ],
     "vizual": [
@@ -2617,7 +2617,7 @@ export const DARSLAR = {
     "kod": {
       "til": "bash",
       "izoh": "Birinchi professional buyruqlar:",
-      "matn": "node --version        # Node o'rnatilganini tekshirish\nmkdir mening-ilovam   # papka yaratish\ncd mening-ilovam      # ичiga kirish\nnpm init -y           # loyiha tug'ildi (package.json)"
+      "matn": "node --version        # Node o'rnatilganini tekshirish\nmkdir mening-ilovam   # papka yaratish\ncd mening-ilovam      # ichiga kirish\nnpm init -y           # loyiha tug'ildi (package.json)"
     },
     "vazifa": [
       "VS Code va Node o'rnating.",
@@ -2928,7 +2928,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Grid bilan kartalar to'plamini yasang.",
-      "Mobil va desktopда test qilib sozlang."
+      "Mobil va desktopda test qilib sozlang."
     ],
     "hayotiy": [
       {
@@ -3075,7 +3075,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Bepul API'lardan bittasini toping (masalan ob-havo).",
-      "Uning endpoint manzilini brauzerда ochib javobni ko'ring."
+      "Uning endpoint manzilini brauzerda ochib javobni ko'ring."
     ],
     "hayotiy": [
       {
@@ -3458,7 +3458,7 @@ export const DARSLAR = {
     "hayotiy": [
       {
         "s": "Ishlaydigan mahsulot",
-        "i": "Endi do'stingizga 'mana, internetdan ma'lumot oladi' deб ko'rsatasiz."
+        "i": "Endi do'stingizga 'mana, internetdan ma'lumot oladi' deb ko'rsatasiz."
       },
       {
         "s": "Professional portfolio",
@@ -3520,8 +3520,8 @@ export const DARSLAR = {
       "matn": "let holat = {\n  vazifalar: [\"Uy ishi\", \"Sport\"],\n  qorongi: false\n};\nfunction yangilanish() {\n  console.log(\"Vazifalar:\", holat.vazifalar.length);\n}"
     },
     "vazifa": [
-      "Kичик ilova uchun holat obyektini loyihalang.",
-      "Holat o'zgarganда ekran yangilanadigan funksiya yozing."
+      "Kichik ilova uchun holat obyektini loyihalang.",
+      "Holat o'zgarganda ekran yangilanadigan funksiya yozing."
     ],
     "hayotiy": [
       {
@@ -3605,13 +3605,13 @@ export const DARSLAR = {
       },
       {
         "s": "Sinf jurnali",
-        "i": "Har o'quvchi bir yozuv, ichида maydonlar — obyektlar massivi."
+        "i": "Har o'quvchi bir yozuv, ichida maydonlar — obyektlar massivi."
       }
     ],
     "material": [
       {
         "s": "Ma'lumotni to'g'ri modellashtirish",
-        "p": "Yaxshi ilovaning yarmi — ma'lumotni to'g'ri strukturaga solish. Har vazifa faqat matn emas: {id, matn, bajarildi}. Bu 'obyektlar massivi'. Oldindan 'qaysi maydonlar kerak' deб o'ylash — keyin ilovani qurishni ancha osonlashtiradi."
+        "p": "Yaxshi ilovaning yarmi — ma'lumotni to'g'ri strukturaga solish. Har vazifa faqat matn emas: {id, matn, bajarildi}. Bu 'obyektlar massivi'. Oldindan 'qaysi maydonlar kerak' deb o'ylash — keyin ilovani qurishni ancha osonlashtiradi."
       },
       {
         "s": "Massiv metodlari",
@@ -3657,7 +3657,7 @@ export const DARSLAR = {
       },
       {
         "s": "innerHTML bilan joylash",
-        "i": "Yasalgan HTML ni konteyner ичiga qo'yish."
+        "i": "Yasalgan HTML ni konteyner ichiga qo'yish."
       },
       {
         "s": "Qayta render",
@@ -3671,7 +3671,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Massivdagi ma'lumotni ekranga ro'yxat qilib chizing.",
-      "Ma'lumot o'zgarganда qayta render qiling."
+      "Ma'lumot o'zgarganda qayta render qiling."
     ],
     "hayotiy": [
       {
@@ -3800,7 +3800,7 @@ export const DARSLAR = {
     "mavzular": [
       {
         "s": "localStorage nima",
-        "i": "Brauzerда ma'lumotni doimiy saqlaydigan xotira."
+        "i": "Brauzerda ma'lumotni doimiy saqlaydigan xotira."
       },
       {
         "s": "Saqlash",
@@ -3822,7 +3822,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Ilova ma'lumotini localStorage'ga saqlang.",
-      "Sahifa qayta ochilganда ma'lumot tiklanishini ta'minlang."
+      "Sahifa qayta ochilganda ma'lumot tiklanishini ta'minlang."
     ],
     "hayotiy": [
       {
@@ -3954,7 +3954,7 @@ export const DARSLAR = {
     "n": 19,
     "nom": "Ko'p ekranli ilova (routing asosi)",
     "natija": "SPA navigatsiya",
-    "kirish": "Haqiqiy ilovalarда bir necha ekran/sahifa bo'ladi. Sahifani qayta yuklamasdan ekranlar orasida o'tishni o'rganamiz.",
+    "kirish": "Haqiqiy ilovalarda bir necha ekran/sahifa bo'ladi. Sahifani qayta yuklamasdan ekranlar orasida o'tishni o'rganamiz.",
     "mavzular": [
       {
         "s": "SPA g'oyasi",
@@ -3970,7 +3970,7 @@ export const DARSLAR = {
       },
       {
         "s": "Faol holat",
-        "i": "Qaysi ekran ochiqligini holatда saqlash."
+        "i": "Qaysi ekran ochiqligini holatda saqlash."
       }
     ],
     "kod": {
@@ -4041,7 +4041,7 @@ export const DARSLAR = {
       },
       {
         "s": "Qayta ishlatish",
-        "i": "Bir komponentni ko'p joyда ishlatish."
+        "i": "Bir komponentni ko'p joyda ishlatish."
       },
       {
         "s": "Tartibli kod",
@@ -4064,7 +4064,7 @@ export const DARSLAR = {
       },
       {
         "s": "Standart eshik",
-        "i": "Bir eshik andozasi butun binoда ishlatiladi — bir komponent, ko'p joy."
+        "i": "Bir eshik andozasi butun binoda ishlatiladi — bir komponent, ko'p joy."
       }
     ],
     "material": [
@@ -4126,12 +4126,12 @@ export const DARSLAR = {
     ],
     "kod": {
       "til": "js",
-      "izoh": "Rekordни saqlash:",
+      "izoh": "Rekordni saqlash:",
       "matn": "let rekord = Number(localStorage.getItem(\"rekord\")) || 0;\nfunction natijaTekshir(ball) {\n  if (ball > rekord) {\n    rekord = ball;\n    localStorage.setItem(\"rekord\", rekord);\n  }\n  document.querySelector(\"#rekord\").textContent = \"Rekord: \" + rekord;\n}"
     },
     "vazifa": [
       "Basic loyihangizni yangi strukturaga ko'chiring.",
-      "Ball/rekordni localStorage'ga saqlab, sahifa yangilanganда tiklang."
+      "Ball/rekordni localStorage'ga saqlab, sahifa yangilanganda tiklang."
     ],
     "hayotiy": [
       {
@@ -4256,7 +4256,7 @@ export const DARSLAR = {
     "n": 23,
     "nom": "Amaliyot: state + saqlash + API",
     "natija": "Yaxlit oqim",
-    "kirish": "Blok 2 ning barcha tushunchalarini — holat, render, saqlash va API — bitta amaliyotда birlashtramiz.",
+    "kirish": "Blok 2 ning barcha tushunchalarini — holat, render, saqlash va API — bitta amaliyotda birlashtramiz.",
     "mavzular": [
       {
         "s": "To'liq oqim",
@@ -4277,7 +4277,7 @@ export const DARSLAR = {
     ],
     "kod": null,
     "vazifa": [
-      "API + holat + localStorage'ni bitta ilovaда birlashtiring.",
+      "API + holat + localStorage'ni bitta ilovada birlashtiring.",
       "Barcha chegara holatlarini (bo'sh/xato) qayta ishlang."
     ],
     "hayotiy": [
@@ -4333,11 +4333,11 @@ export const DARSLAR = {
       },
       {
         "s": "Saqlash",
-        "i": "Ma'lumot brauzer yopilса ham qoladi."
+        "i": "Ma'lumot brauzer yopilsa ham qoladi."
       },
       {
         "s": "Deploy + portfolio",
-        "i": "Jonli havola, GitHub'да kod."
+        "i": "Jonli havola, GitHub'da kod."
       }
     ],
     "kod": null,
@@ -4385,7 +4385,7 @@ export const DARSLAR = {
     "n": 25,
     "nom": "Backend nima + Node.js kirish",
     "natija": "Server tushunchasi",
-    "kirish": "Hozirgacha hammasi brauzerда (frontend) edi. Endi 'server' tomonini — backend'ni quramiz. Node.js JS'ni brauzersiz, serverда ishlatadi.",
+    "kirish": "Hozirgacha hammasi brauzerda (frontend) edi. Endi 'server' tomonini — backend'ni quramiz. Node.js JS'ni brauzersiz, serverda ishlatadi.",
     "mavzular": [
       {
         "s": "Frontend vs backend",
@@ -4393,15 +4393,15 @@ export const DARSLAR = {
       },
       {
         "s": "Node.js nima",
-        "i": "JS'ni serverда ishga tushiruvchi muhit."
+        "i": "JS'ni serverda ishga tushiruvchi muhit."
       },
       {
         "s": "Birinchi skript",
-        "i": "Terminalда JS faylni ishga tushirish."
+        "i": "Terminalda JS faylni ishga tushirish."
       },
       {
         "s": "Nega server kerak",
-        "i": "Ma'lumotni markazда saqlash, ko'p foydalanuvchi."
+        "i": "Ma'lumotni markazda saqlash, ko'p foydalanuvchi."
       }
     ],
     "kod": {
@@ -4410,7 +4410,7 @@ export const DARSLAR = {
       "matn": "// server.js\nconsole.log(\"Salom serverdan!\");\nlet sana = new Date();\nconsole.log(\"Vaqt:\", sana);\n// Ishga tushirish: node server.js"
     },
     "vazifa": [
-      "Node bilan birinchi skriptni terminalда ishga tushiring.",
+      "Node bilan birinchi skriptni terminalda ishga tushiring.",
       "Frontend va backend farqini yozing."
     ],
     "hayotiy": [
@@ -4473,17 +4473,17 @@ export const DARSLAR = {
       },
       {
         "s": "require/import",
-        "i": "Paketni kodда ishlatish."
+        "i": "Paketni kodda ishlatish."
       }
     ],
     "kod": {
       "til": "bash",
       "izoh": "Paket o'rnatish:",
-      "matn": "npm install express\n# package.json ga qo'shiladi\n# kodда: const express = require(\"express\");"
+      "matn": "npm install express\n# package.json ga qo'shiladi\n# kodda: const express = require(\"express\");"
     },
     "vazifa": [
       "Express paketini o'rnating.",
-      "package.json ичiga qo'shilganini tekshiring."
+      "package.json ichiga qo'shilganini tekshiring."
     ],
     "hayotiy": [
       {
@@ -4547,11 +4547,11 @@ export const DARSLAR = {
     "kod": {
       "til": "js",
       "izoh": "Birinchi server:",
-      "matn": "const express = require(\"express\");\nconst app = express();\n\napp.get(\"/\", function(req, res) {\n  res.send(\"Salom, mening serverim!\");\n});\n\napp.listen(3000, function() {\n  console.log(\"Server 3000-portда ishlayapti\");\n});"
+      "matn": "const express = require(\"express\");\nconst app = express();\n\napp.get(\"/\", function(req, res) {\n  res.send(\"Salom, mening serverim!\");\n});\n\napp.listen(3000, function() {\n  console.log(\"Server 3000-portda ishlayapti\");\n});"
     },
     "vazifa": [
       "Express server yarating va ishga tushiring.",
-      "Brauzerда localhost:3000 ni oching."
+      "Brauzerda localhost:3000 ni oching."
     ],
     "hayotiy": [
       {
@@ -4675,7 +4675,7 @@ export const DARSLAR = {
     "n": 29,
     "nom": "Ma'lumotlar bazasi tushunchasi",
     "natija": "Saqlash modeli",
-    "kirish": "localStorage bir kishilik edi. Haqiqiy ilova ma'lumotni serverда — ma'lumotlar bazasida saqlaydi, shunda hamma foydalanuvchi uchun bir joyда.",
+    "kirish": "localStorage bir kishilik edi. Haqiqiy ilova ma'lumotni serverda — ma'lumotlar bazasida saqlaydi, shunda hamma foydalanuvchi uchun bir joyda.",
     "mavzular": [
       {
         "s": "DB nima",
@@ -4773,7 +4773,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Ma'lumot yozadigan va o'qiydigan endpoint'lar yasang.",
-      "Ma'lumot bazaда saqlanishini tekshiring."
+      "Ma'lumot bazada saqlanishini tekshiring."
     ],
     "hayotiy": [
       {
@@ -4906,7 +4906,7 @@ export const DARSLAR = {
       },
       {
         "s": "Xato boshqaruvi",
-        "i": "Server xatolarini frontend'да ko'rsatish."
+        "i": "Server xatolarini frontend'da ko'rsatish."
       }
     ],
     "kod": {
@@ -4963,7 +4963,7 @@ export const DARSLAR = {
     "nom": "Login/ro'yxatdan o'tish (3-to'lqin)",
     "natija": "Boshqalar kiradi",
     "tur": "hot",
-    "kirish": "Uchinchi va eng katta farq: endi ilovangizga BOSHQALAR kirib, o'z hisobини ochadi. Ro'yxatdan o'tish va login — haqiqiy ilova belgisi.",
+    "kirish": "Uchinchi va eng katta farq: endi ilovangizga BOSHQALAR kirib, o'z hisobini ochadi. Ro'yxatdan o'tish va login — haqiqiy ilova belgisi.",
     "mavzular": [
       {
         "s": "Ro'yxatdan o'tish",
@@ -4975,7 +4975,7 @@ export const DARSLAR = {
       },
       {
         "s": "Foydalanuvchini saqlash",
-        "i": "Bazaда har foydalanuvchi alohida."
+        "i": "Bazada har foydalanuvchi alohida."
       },
       {
         "s": "Kim kirganini bilish",
@@ -4988,8 +4988,8 @@ export const DARSLAR = {
       "matn": "app.post(\"/royxat\", function(req, res) {\n  let { email, parol } = req.body;\n  // parolni xavfsiz saqlash (keyingi dars)\n  db.foydalanuvchiQosh({ email: email, parol: parol });\n  res.json({ holat: \"hisob yaratildi\" });\n});"
     },
     "vazifa": [
-      "Ro'yxatdan o'tish va login endpoint'larини yasang.",
-      "Har foydalanuvchi o'z ma'lumotини ko'rishini ta'minlang."
+      "Ro'yxatdan o'tish va login endpoint'larini yasang.",
+      "Har foydalanuvchi o'z ma'lumotini ko'rishini ta'minlang."
     ],
     "hayotiy": [
       {
@@ -5042,7 +5042,7 @@ export const DARSLAR = {
     "n": 34,
     "nom": "Autentifikatsiya + sessiya asosi",
     "natija": "Kirish tizimi",
-    "kirish": "Foydalanuvchi kirganдан keyin uni 'eslab qolish' va faqat o'z ma'lumotига ruxsat berish kerak.",
+    "kirish": "Foydalanuvchi kirgandan keyin uni 'eslab qolish' va faqat o'z ma'lumotiga ruxsat berish kerak.",
     "mavzular": [
       {
         "s": "Autentifikatsiya",
@@ -5087,11 +5087,11 @@ export const DARSLAR = {
       },
       {
         "s": "Sessiya va token",
-        "p": "Kirgandan keyin serverga 'sessiya' yoki 'token' beriladi — foydalanuvchini tanituvchi maxfiy belgi. Har keyingi so'rovda shu token yuboriladi, server 'ha, bu kirgan foydalanuvchi' deб tanaydi. Bu — xavfsiz kirish tizimining asosi."
+        "p": "Kirgandan keyin serverga 'sessiya' yoki 'token' beriladi — foydalanuvchini tanituvchi maxfiy belgi. Har keyingi so'rovda shu token yuboriladi, server 'ha, bu kirgan foydalanuvchi' deb tanaydi. Bu — xavfsiz kirish tizimining asosi."
       },
       {
         "s": "Himoyalangan yo'llar",
-        "p": "Ba'zi endpoint'lar faqat kirgan foydalanuvchilar uchun bo'lishi kerak (masalan 'mening ma'lumotim'). Bunday yo'llarni himoyalaysiz: so'rov kelganda avval 'kirganmi?' deб tekshirasiz, kirmagan bo'lsa rad etasiz (401 xato). Logout esa sessiyani tugatadi."
+        "p": "Ba'zi endpoint'lar faqat kirgan foydalanuvchilar uchun bo'lishi kerak (masalan 'mening ma'lumotim'). Bunday yo'llarni himoyalaysiz: so'rov kelganda avval 'kirganmi?' deb tekshirasiz, kirmagan bo'lsa rad etasiz (401 xato). Logout esa sessiyani tugatadi."
       }
     ],
     "vizual": [
@@ -5126,7 +5126,7 @@ export const DARSLAR = {
       },
       {
         "s": "Kiruvchi ma'lumotni tekshirish",
-        "i": "Har doim server tomonда tekshirish."
+        "i": "Har doim server tomonda tekshirish."
       },
       {
         "s": "Umumiy xavflar",
@@ -5140,7 +5140,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Parolni hash qilib saqlang.",
-      "Loginда parolни bcrypt bilan tekshiring."
+      "Loginda parolni bcrypt bilan tekshiring."
     ],
     "hayotiy": [
       {
@@ -5202,7 +5202,7 @@ export const DARSLAR = {
       },
       {
         "s": "Foydalanuvchi hisoblari",
-        "i": "Har kim o'z ma'lumotини boshqaradi."
+        "i": "Har kim o'z ma'lumotini boshqaradi."
       },
       {
         "s": "CRUD amallar",
@@ -5258,7 +5258,7 @@ export const DARSLAR = {
     "n": 37,
     "nom": "Capstone: Basic loyihasini full-stack ilovaga aylantirish rejasi",
     "natija": "Reja + dizayn",
-    "kirish": "Through-line yakuni boshlanadi: Basic'да yasagan loyihangiz endi to'liq full-stack ilovaga aylanadi — login, baza, deploy bilan. Rejalashtiramiz.",
+    "kirish": "Through-line yakuni boshlanadi: Basic'da yasagan loyihangiz endi to'liq full-stack ilovaga aylanadi — login, baza, deploy bilan. Rejalashtiramiz.",
     "mavzular": [
       {
         "s": "Loyihani qayta ko'rish",
@@ -5330,7 +5330,7 @@ export const DARSLAR = {
       },
       {
         "s": "Server setup",
-        "i": "Express + baza ulanishи."
+        "i": "Express + baza ulanishi."
       },
       {
         "s": "Frontend setup",
@@ -5386,11 +5386,11 @@ export const DARSLAR = {
     "n": 39,
     "nom": "Asosiy funksiya 1 (foydalanuvchi/ma'lumot)",
     "natija": "Ma'lumot qismi",
-    "kirish": "Ilovaning birinchi asosiy funksiyasini — foydalanuvchi va ma'lumot boshqaruvини quramiz.",
+    "kirish": "Ilovaning birinchi asosiy funksiyasini — foydalanuvchi va ma'lumot boshqaruvini quramiz.",
     "mavzular": [
       {
         "s": "Ma'lumot modeli",
-        "i": "Bazaда jadval/kolleksiya yaratish."
+        "i": "Bazada jadval/kolleksiya yaratish."
       },
       {
         "s": "CRUD endpoint'lar",
@@ -5450,7 +5450,7 @@ export const DARSLAR = {
     "n": 40,
     "nom": "Asosiy funksiya 2 (CRUD/interaktiv yadro)",
     "natija": "Yadro funksiya",
-    "kirish": "Ilovaning yuragi bo'lgan ikkinchi asosiy funksiyани quramiz — loyihangizning o'ziga xos mantig'i.",
+    "kirish": "Ilovaning yuragi bo'lgan ikkinchi asosiy funksiyani quramiz — loyihangizning o'ziga xos mantig'i.",
     "mavzular": [
       {
         "s": "Yadro mantiq",
@@ -5458,7 +5458,7 @@ export const DARSLAR = {
       },
       {
         "s": "Holat + baza",
-        "i": "Ma'lumotni saqlab, ekranда aks ettirish."
+        "i": "Ma'lumotni saqlab, ekranda aks ettirish."
       },
       {
         "s": "Interaktivlik",
@@ -5472,7 +5472,7 @@ export const DARSLAR = {
     "kod": null,
     "vazifa": [
       "Loyiha yadro funksiyasini yakunlang.",
-      "Ma'lumot to'g'ri saqlanib, ko'rsatilishини tekshiring."
+      "Ma'lumot to'g'ri saqlanib, ko'rsatilishini tekshiring."
     ],
     "hayotiy": [
       {
@@ -5514,7 +5514,7 @@ export const DARSLAR = {
     "n": 41,
     "nom": "Login + foydalanuvchi ma'lumotini saqlash",
     "natija": "Ko'p foydalanuvchi",
-    "kirish": "Ilovaga login qo'shamiz — endi har foydalanuvchi o'z hisobи va ma'lumotига ega bo'ladi.",
+    "kirish": "Ilovaga login qo'shamiz — endi har foydalanuvchi o'z hisobi va ma'lumotiga ega bo'ladi.",
     "mavzular": [
       {
         "s": "Ro'yxatdan o'tish/login",
@@ -5526,7 +5526,7 @@ export const DARSLAR = {
       },
       {
         "s": "Foydalanuvchi ma'lumoti",
-        "i": "Har kim o'z ma'lumotини ko'radi."
+        "i": "Har kim o'z ma'lumotini ko'radi."
       },
       {
         "s": "Sessiya",
@@ -5535,8 +5535,8 @@ export const DARSLAR = {
     ],
     "kod": null,
     "vazifa": [
-      "Login tizimини ilovaga qo'shing.",
-      "Har foydalanuvchi faqat o'z ma'lumotини ko'rishini ta'minlang."
+      "Login tizimini ilovaga qo'shing.",
+      "Har foydalanuvchi faqat o'z ma'lumotini ko'rishini ta'minlang."
     ],
     "hayotiy": [
       {
@@ -5579,7 +5579,7 @@ export const DARSLAR = {
     "nom": "AI-API integratsiyasi (chatbot/tavsiya)",
     "natija": "Kelajak qatlami",
     "tur": "hot",
-    "kirish": "Zamonaviy ilovalar AI'dan foydalanadi. Loyihangizga AI-API qatlamини qo'shamiz — masalan chatbot, tavsiya yoki matn yaratish.",
+    "kirish": "Zamonaviy ilovalar AI'dan foydalanadi. Loyihangizga AI-API qatlamini qo'shamiz — masalan chatbot, tavsiya yoki matn yaratish.",
     "mavzular": [
       {
         "s": "AI-API nima",
@@ -5587,25 +5587,25 @@ export const DARSLAR = {
       },
       {
         "s": "API kalit",
-        "i": "Xizmatga xavfsiz ulanish (kalitni serverда saqlash)."
+        "i": "Xizmatga xavfsiz ulanish (kalitni serverda saqlash)."
       },
       {
         "s": "So'rov yuborish",
-        "i": "Foydalanuvchi so'rovини AI'ga yuborish."
+        "i": "Foydalanuvchi so'rovini AI'ga yuborish."
       },
       {
-        "s": "Javobни ko'rsatish",
-        "i": "AI natijasини ilovaда aks ettirish."
+        "s": "Javobni ko'rsatish",
+        "i": "AI natijasini ilovada aks ettirish."
       }
     ],
     "kod": {
       "til": "js",
-      "izoh": "AI so'rovi (backendда, soddalashtirilgan):",
-      "matn": "app.post(\"/ai\", async function(req, res) {\n  let savol = req.body.savol;\n  let javob = await aiXizmat.sorash(savol); // API kalit serverда\n  res.json({ javob: javob });\n});"
+      "izoh": "AI so'rovi (backendda, soddalashtirilgan):",
+      "matn": "app.post(\"/ai\", async function(req, res) {\n  let savol = req.body.savol;\n  let javob = await aiXizmat.sorash(savol); // API kalit serverda\n  res.json({ javob: javob });\n});"
     },
     "vazifa": [
-      "Loyihaga AI-API qatlamи qo'shing (chatbot/tavsiya/matn).",
-      "API kalitини serverда xavfsiz saqlang."
+      "Loyihaga AI-API qatlami qo'shing (chatbot/tavsiya/matn).",
+      "API kalitini serverda xavfsiz saqlang."
     ],
     "hayotiy": [
       {
@@ -5662,21 +5662,21 @@ export const DARSLAR = {
       },
       {
         "s": "Responsive",
-        "i": "Har ekranда chiroyli."
+        "i": "Har ekranda chiroyli."
       },
       {
         "s": "Foydalanuvchi tajribasi",
         "i": "Loading, xato, muvaffaqiyat xabarlari."
       },
       {
-        "s": "Kичik detallar",
+        "s": "Kichik detallar",
         "i": "Animatsiya, hover, tekislik."
       }
     ],
     "kod": null,
     "vazifa": [
-      "Ilova UI'ini professional darajaда sayqallang.",
-      "Mobil va desktopда test qiling."
+      "Ilova UI'ini professional darajada sayqallang.",
+      "Mobil va desktopda test qiling."
     ],
     "hayotiy": [
       {
@@ -5721,7 +5721,7 @@ export const DARSLAR = {
     "kirish": "Deploydan oldin ilovani sinchiklab sinaymiz va xatolarni tuzatamiz — foydalanuvchi xatoga uchramasin.",
     "mavzular": [
       {
-        "s": "Turli holatlarни sinash",
+        "s": "Turli holatlarni sinash",
         "i": "Bo'sh ma'lumot, noto'g'ri kirish, ko'p foydalanuvchi."
       },
       {
@@ -5730,16 +5730,16 @@ export const DARSLAR = {
       },
       {
         "s": "Chegara holatlari",
-        "i": "Kutilmagan vaziyatlarни qayta ishlash."
+        "i": "Kutilmagan vaziyatlarni qayta ishlash."
       },
       {
-        "s": "Boshqa qurilmада sinash",
-        "i": "Turli brauzer/telefonда tekshirish."
+        "s": "Boshqa qurilmada sinash",
+        "i": "Turli brauzer/telefonda tekshirish."
       }
     ],
     "kod": null,
     "vazifa": [
-      "Ilovani turli holatlarда sinang.",
+      "Ilovani turli holatlarda sinang.",
       "Topilgan xatolarni tuzating va qayta sinang."
     ],
     "hayotiy": [
@@ -5782,7 +5782,7 @@ export const DARSLAR = {
     "n": 45,
     "nom": "Deploy: frontend + backend internetga",
     "natija": "Jonli mahsulot",
-    "kirish": "Eng muhim lahza: ilovangizни internetga qo'yasiz. Endi u haqiqatan ham yashaydi — istalgan odam kirib ishlata oladi.",
+    "kirish": "Eng muhim lahza: ilovangizni internetga qo'yasiz. Endi u haqiqatan ham yashaydi — istalgan odam kirib ishlata oladi.",
     "mavzular": [
       {
         "s": "Frontend deploy",
@@ -5794,17 +5794,17 @@ export const DARSLAR = {
       },
       {
         "s": "Baza",
-        "i": "Ma'lumotlar bazasини onlayn ulash."
+        "i": "Ma'lumotlar bazasini onlayn ulash."
       },
       {
         "s": "Ulash va tekshirish",
-        "i": "Frontend, backend va baza birga ishlashини tekshirish."
+        "i": "Frontend, backend va baza birga ishlashini tekshirish."
       }
     ],
     "kod": null,
     "vazifa": [
-      "Frontend va backend'ни internetга deploy qiling.",
-      "Jonli havolада to'liq ishlashини tekshiring."
+      "Frontend va backend'ni internetga deploy qiling.",
+      "Jonli havolada to'liq ishlashini tekshiring."
     ],
     "hayotiy": [
       {
@@ -5846,7 +5846,7 @@ export const DARSLAR = {
     "n": 46,
     "nom": "Portfolio + README + Git tarixi",
     "natija": "Ish hujjati",
-    "kirish": "Loyiha tayyor — endi uni professional tarzda hujjatlashtiramiz. README, toza Git tarixi va portfolio — ishga/o'qishga kirishда muhim.",
+    "kirish": "Loyiha tayyor — endi uni professional tarzda hujjatlashtiramiz. README, toza Git tarixi va portfolio — ishga/o'qishga kirishda muhim.",
     "mavzular": [
       {
         "s": "README yozish",
@@ -5858,7 +5858,7 @@ export const DARSLAR = {
       },
       {
         "s": "Portfolio",
-        "i": "Loyihани jonli havola bilan taqdim etish."
+        "i": "Loyihani jonli havola bilan taqdim etish."
       },
       {
         "s": "Skrinshot/demo",
@@ -5872,7 +5872,7 @@ export const DARSLAR = {
     },
     "vazifa": [
       "Professional README yozing.",
-      "Portfolio sahifangizга loyihани qo'shing."
+      "Portfolio sahifangizga loyihani qo'shing."
     ],
     "hayotiy": [
       {
@@ -5891,7 +5891,7 @@ export const DARSLAR = {
       },
       {
         "s": "Portfolio uchun muhim",
-        "p": "README va toza kod — ish beruvchi yoki universitet birinchi ko'radigan narsa. Yaxshi hujjatlangan loyiha 'bu odam professional ishlaydi' deб ko'rsatadi. Kod qanchalik yaxshi bo'lsa ham, hujjatsiz bo'lsa — qadri kamayadi. Bu — kichik, lekin muhim qadam."
+        "p": "README va toza kod — ish beruvchi yoki universitet birinchi ko'radigan narsa. Yaxshi hujjatlangan loyiha 'bu odam professional ishlaydi' deb ko'rsatadi. Kod qanchalik yaxshi bo'lsa ham, hujjatsiz bo'lsa — qadri kamayadi. Bu — kichik, lekin muhim qadam."
       }
     ],
     "vizual": [
@@ -5914,7 +5914,7 @@ export const DARSLAR = {
     "n": 47,
     "nom": "Taqdimot mashqi (pitch)",
     "natija": "Prezentatsiya",
-    "kirish": "Dasturchi o'z ishini taqdim eta bilishi kerak. Yakuniy himoyага tayyorlanamiz.",
+    "kirish": "Dasturchi o'z ishini taqdim eta bilishi kerak. Yakuniy himoyaga tayyorlanamiz.",
     "mavzular": [
       {
         "s": "Taqdimot tuzilishi",
@@ -5922,7 +5922,7 @@ export const DARSLAR = {
       },
       {
         "s": "Jonli demo",
-        "i": "Ilovани ishlashда ko'rsatish."
+        "i": "Ilovani ishlashda ko'rsatish."
       },
       {
         "s": "Texnik savollar",
@@ -5936,7 +5936,7 @@ export const DARSLAR = {
     "kod": null,
     "vazifa": [
       "3-5 daqiqalik taqdimot tayyorlang.",
-      "Jonli demо va savollarга javobни mashq qiling."
+      "Jonli demo va savollarga javobni mashq qiling."
     ],
     "hayotiy": [
       {
@@ -5979,15 +5979,15 @@ export const DARSLAR = {
     "nom": "Yakuniy himoya + 'Ilova muhandisi' sertifikati",
     "natija": "Pro bitiruv",
     "tur": "cap",
-    "kirish": "Yo'l yakuni! Full-stack ilovangizни himoya qilib 'Ilova muhandisi' darajасини olasiz. Endi siz ma'lumot saqlaydigan, foydalanuvchili, internetда yashaydigan haqiqiy ilova qura olasiz.",
+    "kirish": "Yo'l yakuni! Full-stack ilovangizni himoya qilib 'Ilova muhandisi' darajasini olasiz. Endi siz ma'lumot saqlaydigan, foydalanuvchili, internetda yashaydigan haqiqiy ilova qura olasiz.",
     "mavzular": [
       {
         "s": "Yakuniy taqdimot",
-        "i": "To'liq loyihани komissiya/guruh oldida himoya."
+        "i": "To'liq loyihani komissiya/guruh oldida himoya."
       },
       {
         "s": "Basic → Pro yo'li",
-        "i": "O'yinchoqдан haqiqiy ilovагача bosib o'tilган yo'l."
+        "i": "O'yinchoqdan haqiqiy ilovagacha bosib o'tilgan yo'l."
       },
       {
         "s": "Refleksiya",
@@ -5995,13 +5995,13 @@ export const DARSLAR = {
       },
       {
         "s": "Kelajak",
-        "i": "Freelance, jamoаda ishlash, yangi loyihalar."
+        "i": "Freelance, jamoada ishlash, yangi loyihalar."
       }
     ],
     "kod": null,
     "vazifa": [
-      "Full-stack loyihангизни himoya qiling.",
-      "Keyingi loyiha yoki o'rganish rejангизни tuzing."
+      "Full-stack loyihangizni himoya qiling.",
+      "Keyingi loyiha yoki o'rganish rejangizni tuzing."
     ],
     "hayotiy": [
       {
@@ -6052,7 +6052,7 @@ export const DARSLAR = {
       "HTML nima va teg qanday ishlaydi? Ochilish va yopilish tegiga misol keltiring.",
       "CSS'da element, class va id selektorlari orasidagi farq nimada?",
       "Box model qatlamlarini (margin, border, padding, content) tushuntiring.",
-      "Internetда so'rov-javob (client-server) qanday ishlaydi? URL qismlarini ayting.",
+      "Internetda so'rov-javob (client-server) qanday ishlaydi? URL qismlarini ayting.",
       "Kuchli parol qanday bo'ladi? Kamida 3 ta qoida keltiring.",
       "let va const farqi nimada? Har biriga misol.",
       "Algoritm nima? Kundalik hayotdan misol keltiring.",
