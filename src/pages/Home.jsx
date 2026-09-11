@@ -25,7 +25,7 @@ function buildSyllabus(til){
     if(d.modul !== joriyModul){
       tblYop()
       var pro = d.modul === 'Pro'
-      var jami = KETMA.filter(function(x){ return DARSLAR[x].modul === d.modul && !DARSLAR[x].imtihon }).length
+      var jami = KETMA.filter(function(x){ return DARSLAR[x].modul === d.modul && !DARSLAR[x].imtihon && !DARSLAR[x].intro }).length
       var nom = pro ? L.modulPro : L.modulBasic
       var hafta = pro ? L.haftaPro : L.haftaBasic
       html += '<div class="modhead" style="margin-top:'+(pro?'40px':'10px')+'">'
@@ -41,9 +41,9 @@ function buildSyllabus(til){
             + '<tr><th>#</th><th>'+L.thMavzu+'</th><th>'+L.thNatija+'</th><th></th></tr>'
       ochiqTbl = true; joriyBlok = d.blok
     }
-    var cls = 'dars' + (d.tur === 'cap' ? ' cap' : d.tur === 'hot' ? ' hot' : '')
+    var cls = 'dars' + (d.intro ? ' hot' : d.tur === 'cap' ? ' cap' : d.tur === 'hot' ? ' hot' : '')
     html += '<tr class="'+cls+'" data-k="'+d.k+'">'
-          + '<td>'+d.n+'</td><td>'+esc(fld(k,til,'nom'))+'</td><td>'+esc(fld(k,til,'natija'))+'</td>'
+          + '<td>'+(d.intro?'🚀':d.n)+'</td><td>'+esc(fld(k,til,'nom'))+'</td><td>'+esc(fld(k,til,'natija'))+'</td>'
           + '<td class="arrow">→</td></tr>'
   })
   tblYop()

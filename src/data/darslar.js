@@ -6040,6 +6040,84 @@ export const DARSLAR = {
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"120\" y=\"60\" width=\"400\" height=\"240\" rx=\"16\" fill=\"#1b1c36\" stroke=\"#ff8a3d\" stroke-width=\"2\"/><text x=\"320\" y=\"110\" fill=\"#6d6f9c\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">SERTIFIKAT</text><text x=\"320\" y=\"160\" fill=\"#ff8a3d\" font-size=\"26\" font-weight=\"800\" text-anchor=\"middle\">Ilova muhandisi</text><line x1=\"190\" y1=\"182\" x2=\"450\" y2=\"182\" stroke=\"#2a2c4e\" stroke-width=\"1\"/><text x=\"320\" y=\"212\" fill=\"#9a9cc4\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">full-stack ilova qura oladi ✓</text><circle cx=\"320\" cy=\"255\" r=\"20\" fill=\"none\" stroke=\"#ff8a3d\" stroke-width=\"2\"/><text x=\"320\" y=\"262\" fill=\"#ff8a3d\" font-size=\"20\" font-weight=\"400\" text-anchor=\"middle\">⚙</text></svg>"
     }
   },
+  "b-gh": {
+    "k": "b-gh",
+    "modul": "Basic",
+    "blok": "Blok 1 — Web asoslari + yaratuvchilik",
+    "intro": true,
+    "n": 0,
+    "nom": "GitHub: uy vazifasini qanday yuborish",
+    "natija": "Akkaunt + repo + havola",
+    "kirish": "Bu kursda har bir uy vazifangizni GitHub'ga yuborasiz — bu dasturchilarning ish daftari va portfoliosi. Bugun bepul akkaunt ochib, birinchi loyihangizni yuklashni va havolasini o'qituvchiga yuborishni o'rganamiz.",
+    "mavzular": [
+      {
+        "s": "GitHub nima",
+        "i": "Dasturchilar o'z ishini saqlaydigan, ulashadigan va ko'rsatadigan joy — sizning portfoliongiz."
+      },
+      {
+        "s": "Akkaunt ochish",
+        "i": "github.com'ga kiring, bepul ro'yxatdan o'ting (email, foydalanuvchi nomi, parol)."
+      },
+      {
+        "s": "Repozitoriy (repo)",
+        "i": "Repo — loyiha papkasi. Har uy vazifasi uchun repo yoki fayl yuklaysiz."
+      },
+      {
+        "s": "Fayl yuklash",
+        "i": "'Add file' → 'Upload files' orqali HTML faylni brauzerdan yuklaysiz — terminal shart emas."
+      },
+      {
+        "s": "Havolani yuborish",
+        "i": "Repo havolasini nusxalab o'qituvchiga yuborasiz, u ishingizni ko'radi."
+      }
+    ],
+    "material": [
+      {
+        "s": "GitHub — dasturchining ish daftari",
+        "p": "GitHub — dunyodagi dasturchilar o'z kodini saqlaydigan va ulashadigan eng katta platforma. Har bir loyihangiz u yerda saqlanadi, yo'qolmaydi va istalgan odam (masalan o'qituvchingiz) havola orqali ko'ra oladi. Vaqt o'tib bu — sizning portfoliongiz, ya'ni ishlaringiz ko'rgazmasi bo'ladi."
+      },
+      {
+        "s": "Repozitoriy (repo) nima",
+        "p": "Repozitoriy — bitta loyihaning papkasi. Ichida fayllar (HTML, rasm) turadi. Bu kursda 'uy-vazifalari' degan bitta repo ochib, har darsning ishini shunga yuklashingiz mumkin, yoki har vazifaga alohida repo yaratasiz."
+      },
+      {
+        "s": "Web orqali yuklash — terminal shart emas",
+        "p": "Boshida buyruq qatori (terminal) shart emas. GitHub saytida 'Add file' → 'Upload files' tugmasi orqali faylni sichqoncha bilan sudrab yuklaysiz. So'ng 'Commit changes' tugmasini bosasiz — tayyor, faylingiz saqlandi. (Pro modulida haqiqiy Git buyruqlarini ham o'rganasiz.)"
+      },
+      {
+        "s": "Uy vazifasini topshirish tartibi",
+        "p": "Har uy vazifasidan keyin: (1) faylni GitHub repo'ga yuklang, (2) repo sahifasi havolasini nusxalang (masalan github.com/ismingiz/uy-vazifalari), (3) shu havolani o'qituvchiga yuboring. O'qituvchi havolani ochib ishingizni tekshiradi. Shu tartib butun kurs davomida takrorlanadi."
+      }
+    ],
+    "hayotiy": [
+      {
+        "s": "Ishlar shkafi",
+        "i": "GitHub — ishlaringiz shkafi; har repo alohida tokcha. Hammasi tartibli, bir joyda saqlanadi."
+      },
+      {
+        "s": "Uy vazifa daftari",
+        "i": "O'qituvchi daftaringizni tekshirgani kabi, GitHub repo havolangizni ochib ishingizni ko'radi."
+      }
+    ],
+    "vazifa": [
+      "github.com'da bepul akkaunt oching (agar hali bo'lmasa).",
+      "'uy-vazifalari' nomli yangi (public) repozitoriy yarating.",
+      "Oldingi 'Men haqimda' sahifangizni (HTML fayl) repo'ga yuklang.",
+      "Repo havolasini nusxalab o'qituvchiga yuboring."
+    ],
+    "vizual": [
+      {
+        "tur": "maket",
+        "sarlavha": "GitHub'ga yuklash oqimi",
+        "izoh": "Uy vazifangizni shu tarzda yuborasiz.",
+        "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"40\" y=\"40\" width=\"560\" height=\"210\" rx=\"12\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><circle cx=\"56\" cy=\"55\" r=\"4\" fill=\"#ff5f57\"/><circle cx=\"70\" cy=\"55\" r=\"4\" fill=\"#febc2e\"/><circle cx=\"84\" cy=\"55\" r=\"4\" fill=\"#28c840\"/><rect x=\"98\" y=\"47\" width=\"490\" height=\"16\" rx=\"8\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"106\" y=\"59\" fill=\"#6d6f9c\" font-size=\"10\" font-weight=\"400\" text-anchor=\"start\">github.com/ali/uy-vazifalari</text><line x1=\"40\" y1=\"70\" x2=\"600\" y2=\"70\" stroke=\"#2a2c4e\" stroke-width=\"1\"/><rect x=\"70\" y=\"86\" width=\"200\" height=\"30\" rx=\"6\" fill=\"#7c5cff\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"84\" y=\"107\" fill=\"#fff\" font-size=\"13\" font-weight=\"700\" text-anchor=\"start\">📁 uy-vazifalari</text><rect x=\"430\" y=\"85\" width=\"140\" height=\"32\" rx=\"6\" fill=\"none\" stroke=\"#c6ff4f\" stroke-width=\"1.5\"/><text x=\"500\" y=\"106\" fill=\"#c6ff4f\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\">+ Add file</text><rect x=\"70\" y=\"130\" width=\"500\" height=\"42\" rx=\"8\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"90\" y=\"157\" fill=\"#ecebff\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">📄 men-haqimda.html</text><text x=\"548\" y=\"157\" fill=\"#c6ff4f\" font-size=\"16\" font-weight=\"400\" text-anchor=\"end\">✓</text><rect x=\"70\" y=\"185\" width=\"500\" height=\"42\" rx=\"8\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"90\" y=\"211\" fill=\"#38e1c8\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">🔗 github.com/ali/uy-vazifalari</text><rect x=\"478\" y=\"192\" width=\"92\" height=\"28\" rx=\"14\" fill=\"none\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"524\" y=\"211\" fill=\"#9a9cc4\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">Nusxa</text><text x=\"320\" y=\"282\" fill=\"#9a9cc4\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">Havolani o'qituvchiga yuboring →</text></svg>"
+      }
+    ],
+    "vazifaVizual": {
+      "izoh": "Yuklangan repo va havola — o'qituvchiga yuboriladi.",
+      "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"120\" y=\"50\" width=\"400\" height=\"240\" rx=\"12\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><circle cx=\"136\" cy=\"65\" r=\"4\" fill=\"#ff5f57\"/><circle cx=\"150\" cy=\"65\" r=\"4\" fill=\"#febc2e\"/><circle cx=\"164\" cy=\"65\" r=\"4\" fill=\"#28c840\"/><rect x=\"178\" y=\"57\" width=\"330\" height=\"16\" rx=\"8\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"186\" y=\"69\" fill=\"#6d6f9c\" font-size=\"10\" font-weight=\"400\" text-anchor=\"start\">github.com/ali/uy-vazifalari</text><line x1=\"120\" y1=\"80\" x2=\"520\" y2=\"80\" stroke=\"#2a2c4e\" stroke-width=\"1\"/><text x=\"155\" y=\"98\" fill=\"#c6ff4f\" font-size=\"16\" font-weight=\"700\" text-anchor=\"start\">✓ uy-vazifalari</text><rect x=\"155\" y=\"118\" width=\"330\" height=\"42\" rx=\"8\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"175\" y=\"145\" fill=\"#ecebff\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">📄 men-haqimda.html</text><rect x=\"155\" y=\"170\" width=\"330\" height=\"42\" rx=\"8\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"175\" y=\"197\" fill=\"#ecebff\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">📄 index.html</text><rect x=\"155\" y=\"228\" width=\"330\" height=\"40\" rx=\"8\" fill=\"none\" stroke=\"#c6ff4f\" stroke-width=\"1.5\"/><text x=\"320\" y=\"253\" fill=\"#c6ff4f\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">🔗 Havola nusxalandi</text></svg>"
+    }
+  },
   "imt-b1": {
     "k": "imt-b1",
     "after": "b12",
@@ -8545,6 +8623,76 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "Презентация + идея Pro."
+    }
+  },
+  "b-gh": {
+    "nom": "GitHub: как сдавать домашнее задание",
+    "natija": "Аккаунт + репозиторий + ссылка",
+    "kirish": "На этом курсе каждое домашнее задание вы будете сдавать через GitHub — это рабочий дневник и портфолио программистов. Сегодня вы бесплатно создадите аккаунт, научитесь загружать свой первый проект и отправлять ссылку преподавателю.",
+    "mavzular": [
+      {
+        "s": "Что такое GitHub",
+        "i": "Место, где программисты хранят, публикуют и показывают свою работу — ваше портфолио."
+      },
+      {
+        "s": "Создание аккаунта",
+        "i": "Зайдите на github.com и бесплатно зарегистрируйтесь (email, имя пользователя, пароль)."
+      },
+      {
+        "s": "Репозиторий (repo)",
+        "i": "Repo — папка проекта. Для каждого задания вы создаёте репозиторий или загружаете файл."
+      },
+      {
+        "s": "Загрузка файла",
+        "i": "Через 'Add file' → 'Upload files' загружаете HTML-файл из браузера — терминал не нужен."
+      },
+      {
+        "s": "Отправка ссылки",
+        "i": "Копируете ссылку на репозиторий и отправляете преподавателю — он увидит вашу работу."
+      }
+    ],
+    "material": [
+      {
+        "s": "GitHub — рабочий дневник программиста",
+        "p": "GitHub — крупнейшая в мире платформа, где программисты хранят и публикуют свой код. Каждый ваш проект сохраняется там, не теряется, и любой человек (например, преподаватель) может увидеть его по ссылке. Со временем это становится вашим портфолио — витриной ваших работ."
+      },
+      {
+        "s": "Что такое репозиторий (repo)",
+        "p": "Репозиторий — папка одного проекта. Внутри лежат файлы (HTML, картинки). На этом курсе можно создать один репозиторий 'uy-vazifalari' и загружать туда работу каждого урока, либо создавать отдельный репозиторий для каждого задания."
+      },
+      {
+        "s": "Загрузка через веб — терминал не нужен",
+        "p": "В начале командная строка (терминал) не нужна. На сайте GitHub через кнопку 'Add file' → 'Upload files' вы перетаскиваете файл мышкой. Затем нажимаете 'Commit changes' — готово, файл сохранён. (В модуле Pro вы освоите и настоящие команды Git.)"
+      },
+      {
+        "s": "Порядок сдачи домашнего задания",
+        "p": "После каждого задания: (1) загрузите файл в репозиторий GitHub, (2) скопируйте ссылку на страницу репозитория (например github.com/imya/uy-vazifalari), (3) отправьте эту ссылку преподавателю. Преподаватель откроет ссылку и проверит вашу работу. Этот порядок повторяется весь курс."
+      }
+    ],
+    "hayotiy": [
+      {
+        "s": "Шкаф работ",
+        "i": "GitHub — шкаф ваших работ; каждый репозиторий — отдельная полка. Всё аккуратно, в одном месте."
+      },
+      {
+        "s": "Тетрадь с домашкой",
+        "i": "Как преподаватель проверяет вашу тетрадь, так он открывает ссылку на репозиторий GitHub и смотрит вашу работу."
+      }
+    ],
+    "vazifa": [
+      "Создайте бесплатный аккаунт на github.com (если ещё нет).",
+      "Создайте новый (public) репозиторий с названием 'uy-vazifalari'.",
+      "Загрузите свою страницу «Обо мне» (HTML-файл) в репозиторий.",
+      "Скопируйте ссылку на репозиторий и отправьте преподавателю."
+    ],
+    "vizual": [
+      {
+        "sarlavha": "Процесс загрузки на GitHub",
+        "izoh": "Так вы будете сдавать домашнее задание."
+      }
+    ],
+    "vazifaVizual": {
+      "izoh": "Загруженный репозиторий и ссылка — отправляются преподавателю."
     }
   },
   "imt-b1": {
@@ -11660,4 +11808,4 @@ export const DARSLAR_RU = {
   }
 };
 
-export const KETMA = ["b1","b2","b3","b4","b5","b6","b7","b8","b9","b10","b11","b12","imt-b1","b13","b14","b15","b16","b17","b18","b19","b20","b21","b22","b23","b24","imt-b2","b25","b26","b27","b28","b29","b30","b31","b32","b33","b34","b35","b36","imt-b3","p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","imt-p1","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","imt-p2","p25","p26","p27","p28","p29","p30","p31","p32","p33","p34","p35","p36","imt-p3","p37","p38","p39","p40","p41","p42","p43","p44","p45","p46","p47","p48","imt-p4"];
+export const KETMA = ["b-gh","b1","b2","b3","b4","b5","b6","b7","b8","b9","b10","b11","b12","imt-b1","b13","b14","b15","b16","b17","b18","b19","b20","b21","b22","b23","b24","imt-b2","b25","b26","b27","b28","b29","b30","b31","b32","b33","b34","b35","b36","imt-b3","p1","p2","p3","p4","p5","p6","p7","p8","p9","p10","p11","p12","imt-p1","p13","p14","p15","p16","p17","p18","p19","p20","p21","p22","p23","p24","imt-p2","p25","p26","p27","p28","p29","p30","p31","p32","p33","p34","p35","p36","imt-p3","p37","p38","p39","p40","p41","p42","p43","p44","p45","p46","p47","p48","imt-p4"];

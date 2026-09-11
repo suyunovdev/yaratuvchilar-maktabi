@@ -50,16 +50,23 @@ function buildDars(k, til){
     return html
   }
 
-  var jami = KETMA.filter(function(x){ return DARSLAR[x].modul === d.modul && !DARSLAR[x].imtihon }).length
-  var progres = Math.round(d.n / jami * 100)
   var blok = (til==='ru' && BLOK_RU[d.blok]) ? BLOK_RU[d.blok] : d.blok
-  html += '<header>'
-  html += '<div class="crumb"><span>'+esc(d.modul)+'</span><span class="b">•</span><span class="b">'+esc(blok)+'</span></div>'
-  html += '<div class="progress"><span class="n">'+L.dars+' '+d.n+' / '+jami+'</span>'
-        + '<div class="track"><div class="fill" style="width:'+progres+'%"></div></div></div>'
-  html += '<h1>'+esc(d.nom)+'</h1>'
-  html += '<div class="natija">'+L.natija+': '+esc(d.natija)+'</div>'
-  html += '</header>'
+  if(d.intro){
+    html += '<header><div class="crumb"><span>'+esc(d.modul)+'</span><span class="b">•</span>'
+          + '<span class="b" style="color:var(--lime)">'+L.introBadge+'</span></div>'
+    html += '<h1>'+esc(d.nom)+'</h1>'
+    html += '<div class="natija" style="color:var(--lime);border-color:var(--lime)">'+L.natija+': '+esc(d.natija)+'</div></header>'
+  } else {
+    var jami = KETMA.filter(function(x){ return DARSLAR[x].modul === d.modul && !DARSLAR[x].imtihon && !DARSLAR[x].intro }).length
+    var progres = Math.round(d.n / jami * 100)
+    html += '<header>'
+    html += '<div class="crumb"><span>'+esc(d.modul)+'</span><span class="b">•</span><span class="b">'+esc(blok)+'</span></div>'
+    html += '<div class="progress"><span class="n">'+L.dars+' '+d.n+' / '+jami+'</span>'
+          + '<div class="track"><div class="fill" style="width:'+progres+'%"></div></div></div>'
+    html += '<h1>'+esc(d.nom)+'</h1>'
+    html += '<div class="natija">'+L.natija+': '+esc(d.natija)+'</div>'
+    html += '</header>'
+  }
 
   html += '<section><div class="eyebrow">'+L.kirish+'</div>'
   html += '<div class="kirish">'+esc(d.kirish)+'</div></section>'

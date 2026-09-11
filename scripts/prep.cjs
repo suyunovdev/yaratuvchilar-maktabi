@@ -48,6 +48,7 @@ require(path.join(SRC, 'darslar-vizual-basic.js'))
 require(path.join(SRC, 'darslar-vizual-pro.js'))
 require(path.join(SRC, 'darslar-vazifa-basic.js'))
 require(path.join(SRC, 'darslar-vazifa-pro.js'))
+require(path.join(SRC, 'darslar-github.js'))
 require(path.join(SRC, 'darslar-imtihon.js'))
 
 // Rus tarjima overlaylari (ru/ru-*.js → window.DARSLAR_RU)

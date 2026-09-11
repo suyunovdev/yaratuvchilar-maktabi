@@ -9,7 +9,8 @@ export const LABELS = {
     baholash:"Baholash", imtihon:"🎓 Oylik imtihon", oldingi:"← Oldingi", keyingi:"Keyingi →",
     boshi:"Boshi", yakun:"Yakun", dars:"Dars", jami:"", imtihonRow:"OYLIK IMTIHON",
     modulBasic:"MODUL 1 — BASIC · «Yaratuvchi»", modulPro:"MODUL 2 — PRO · «Ilova muhandisi»",
-    darsUnit:"dars", haftaBasic:"12 hafta", haftaPro:"16 hafta", thMavzu:"Mavzu", thNatija:"Natija"
+    darsUnit:"dars", haftaBasic:"12 hafta", haftaPro:"16 hafta", thMavzu:"Mavzu", thNatija:"Natija",
+    introBadge:"🚀 Boshlang'ich dars"
   },
   ru: {
     kirish:"Введение", mavzular:"Темы урока", darslik:"Материал урока",
@@ -19,7 +20,8 @@ export const LABELS = {
     baholash:"Оценивание", imtihon:"🎓 Месячный экзамен", oldingi:"← Назад", keyingi:"Далее →",
     boshi:"Начало", yakun:"Конец", dars:"Урок", jami:"", imtihonRow:"МЕСЯЧНЫЙ ЭКЗАМЕН",
     modulBasic:"МОДУЛЬ 1 — BASIC · «Создатель»", modulPro:"МОДУЛЬ 2 — PRO · «Инженер приложений»",
-    darsUnit:"уроков", haftaBasic:"12 недель", haftaPro:"16 недель"
+    darsUnit:"уроков", haftaBasic:"12 недель", haftaPro:"16 недель", thMavzu:"Тема", thNatija:"Результат",
+    introBadge:"🚀 Вводный урок"
   }
 }
 
