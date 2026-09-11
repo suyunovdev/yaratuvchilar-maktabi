@@ -143,6 +143,10 @@ function buildDars(k, til){
           + (d.vazifaVizual.izoh ? '<div class="i">'+esc(d.vazifaVizual.izoh)+'</div>' : '')
           + '</div></div>'
   }
+  if(!d.intro){
+    html += '<div class="gh-note"><span class="e">📤</span><span>'+L.ghReminder
+          + ' <a data-route href="/dars/b-gh">'+L.ghLink+'</a></span></div>'
+  }
   html += '</section>'
 
   html += nav()

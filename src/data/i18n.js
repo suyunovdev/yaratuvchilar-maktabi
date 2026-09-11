@@ -10,7 +10,8 @@ export const LABELS = {
     boshi:"Boshi", yakun:"Yakun", dars:"Dars", jami:"", imtihonRow:"OYLIK IMTIHON",
     modulBasic:"MODUL 1 — BASIC · «Yaratuvchi»", modulPro:"MODUL 2 — PRO · «Ilova muhandisi»",
     darsUnit:"dars", haftaBasic:"12 hafta", haftaPro:"16 hafta", thMavzu:"Mavzu", thNatija:"Natija",
-    introBadge:"🚀 Boshlang'ich dars"
+    introBadge:"🚀 Boshlang'ich dars",
+    ghReminder:"Bajarilgan uy vazifasini GitHub'ga yuklab, havolasini o'qituvchiga yuboring.", ghLink:"Qanday yuborish?"
   },
   ru: {
     kirish:"Введение", mavzular:"Темы урока", darslik:"Материал урока",
@@ -21,7 +22,8 @@ export const LABELS = {
     boshi:"Начало", yakun:"Конец", dars:"Урок", jami:"", imtihonRow:"МЕСЯЧНЫЙ ЭКЗАМЕН",
     modulBasic:"МОДУЛЬ 1 — BASIC · «Создатель»", modulPro:"МОДУЛЬ 2 — PRO · «Инженер приложений»",
     darsUnit:"уроков", haftaBasic:"12 недель", haftaPro:"16 недель", thMavzu:"Тема", thNatija:"Результат",
-    introBadge:"🚀 Вводный урок"
+    introBadge:"🚀 Вводный урок",
+    ghReminder:"Загрузите выполненное задание на GitHub и отправьте ссылку преподавателю.", ghLink:"Как отправить?"
   }
 }
 
