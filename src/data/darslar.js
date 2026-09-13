@@ -650,6 +650,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "3 qadamli algoritm konsolda.",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"120\" y=\"70\" width=\"400\" height=\"210\" rx=\"10\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"96\" x2=\"520\" y2=\"96\" stroke=\"#2a2c4e\" stroke-width=\"1\"/><text x=\"134\" y=\"88\" fill=\"#6d6f9c\" font-size=\"11\" font-weight=\"400\" text-anchor=\"start\">console</text><text x=\"140\" y=\"120\" fill=\"#38e1c8\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">&gt; 1. Xamir tayyorla</text><text x=\"140\" y=\"155\" fill=\"#38e1c8\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">&gt; 2. Sous surt</text><text x=\"140\" y=\"190\" fill=\"#38e1c8\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">&gt; 3. Pechda pishir</text><text x=\"140\" y=\"235\" fill=\"#c6ff4f\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">Pizza tayyor!</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi to'liq yozadi: console.log(\"Salom, dunyo!\"); — natija konsolda darhol chiqadi.",
+      "yarim": "Sizga berildi: console.log(___); — qavs ichiga o'z ismingizni yozing.",
+      "mustaqil": "3 qatorli algoritmni (masalan choy damlash) console.log bilan o'zingiz yozing."
     }
   },
   "b10": {
@@ -722,6 +727,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "4 ta o'zgaruvchi (ism, yosh, shahar, rang).",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"60\" y=\"120\" width=\"130\" height=\"80\" rx=\"10\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"125\" y=\"112\" fill=\"#7c5cff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">ism</text><text x=\"125\" y=\"168\" fill=\"#c6ff4f\" font-size=\"16\" font-weight=\"400\" text-anchor=\"middle\">'Ali'</text><rect x=\"200\" y=\"120\" width=\"130\" height=\"80\" rx=\"10\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"265\" y=\"112\" fill=\"#7c5cff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">yosh</text><text x=\"265\" y=\"168\" fill=\"#38e1c8\" font-size=\"18\" font-weight=\"400\" text-anchor=\"middle\">14</text><rect x=\"340\" y=\"120\" width=\"130\" height=\"80\" rx=\"10\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"405\" y=\"112\" fill=\"#7c5cff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">shahar</text><text x=\"405\" y=\"168\" fill=\"#c6ff4f\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">'Buxoro'</text><rect x=\"480\" y=\"120\" width=\"100\" height=\"80\" rx=\"10\" fill=\"#1b1c36\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"530\" y=\"112\" fill=\"#7c5cff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">rang</text><text x=\"530\" y=\"168\" fill=\"#c6ff4f\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">'ko'k'</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi: let ism = \"Ali\"; let yosh = 14; console.log(ism, yosh);",
+      "yarim": "To'ldiring: let shahar = ___; console.log(shahar);",
+      "mustaqil": "O'zingiz haqingizda 4 ta o'zgaruvchi (ism, yosh, shahar, sevimliRang) yozing."
     }
   },
   "b11": {
@@ -794,6 +804,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "2 son → yig'indi va ko'paytma.",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"120\" y=\"70\" width=\"400\" height=\"210\" rx=\"10\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"96\" x2=\"520\" y2=\"96\" stroke=\"#2a2c4e\" stroke-width=\"1\"/><text x=\"134\" y=\"88\" fill=\"#6d6f9c\" font-size=\"11\" font-weight=\"400\" text-anchor=\"start\">console</text><text x=\"140\" y=\"115\" fill=\"#6d6f9c\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">&gt; Bir son: 5</text><text x=\"140\" y=\"145\" fill=\"#6d6f9c\" font-size=\"14\" font-weight=\"400\" text-anchor=\"start\">&gt; Yana son: 3</text><text x=\"140\" y=\"185\" fill=\"#c6ff4f\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">Yig'indi: 8</text><text x=\"140\" y=\"215\" fill=\"#c6ff4f\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">Ko'paytma: 15</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi: let a = Number(prompt(\"Son:\")); let b = Number(prompt(\"Son:\")); console.log(a + b);",
+      "yarim": "Yig'indi tayyor. Endi ko'paytmani qo'shing: console.log(a ___ b);",
+      "mustaqil": "2 son so'rab, ularning yig'indisi va ko'paytmasini chiqaring."
     }
   },
   "b12": {
@@ -866,6 +881,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "Viktorina 4-5 qadamga bo'lingan.",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"180\" y=\"70\" width=\"280\" height=\"36\" rx=\"8\" fill=\"none\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"320\" y=\"93\" fill=\"#9a9cc4\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">1. Savollarni tayyorla</text><rect x=\"180\" y=\"115\" width=\"280\" height=\"36\" rx=\"8\" fill=\"none\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"320\" y=\"138\" fill=\"#9a9cc4\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">2. Savolni ko'rsat</text><rect x=\"180\" y=\"160\" width=\"280\" height=\"36\" rx=\"8\" fill=\"none\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"320\" y=\"183\" fill=\"#9a9cc4\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">3. Javobni tekshir</text><rect x=\"180\" y=\"205\" width=\"280\" height=\"36\" rx=\"8\" fill=\"none\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"320\" y=\"228\" fill=\"#9a9cc4\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">4. Ballni hisobla</text><rect x=\"180\" y=\"250\" width=\"280\" height=\"36\" rx=\"8\" fill=\"none\" stroke=\"#38e1c8\" stroke-width=\"1.5\"/><text x=\"320\" y=\"273\" fill=\"#38e1c8\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">5. Natijani chiqar</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi rejani izoh bilan ko'rsatadi: // 1. son ol  // 2. amal tanla  // 3. hisobla  // 4. chiqar",
+      "yarim": "4 qadamdan 2 tasi berilgan — qolgan 2 tasini o'zingiz yozing.",
+      "mustaqil": "Viktorina o'yinini 5 qadamga o'zingiz bo'lib, izoh bilan yozing."
     }
   },
   "b13": {
@@ -945,6 +965,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "Ballga qarab o'tdi/qayta.",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"120\" y=\"80\" width=\"400\" height=\"200\" rx=\"10\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"106\" x2=\"520\" y2=\"106\" stroke=\"#2a2c4e\" stroke-width=\"1\"/><text x=\"134\" y=\"98\" fill=\"#6d6f9c\" font-size=\"11\" font-weight=\"400\" text-anchor=\"start\">console</text><text x=\"140\" y=\"130\" fill=\"#6d6f9c\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">&gt; ball = 75</text><text x=\"140\" y=\"175\" fill=\"#7c5cff\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">if (ball &gt;= 60)</text><text x=\"140\" y=\"215\" fill=\"#c6ff4f\" font-size=\"16\" font-weight=\"700\" text-anchor=\"start\">O'tdingiz! ✓</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi: if (ball >= 60) { console.log(\"O'tdi\"); } else { console.log(\"Qayta\"); }",
+      "yarim": "Shartni to'ldiring: if (___) { console.log(\"O'tdi\"); }",
+      "mustaqil": "Yoshga qarab xabar yozing: 18+ bo'lsa \"katta\", aks holda \"yosh\"."
     }
   },
   "b14": {
@@ -1017,6 +1042,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "Ball → A/B/C/D + a'lochi.",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"90\" y=\"120\" width=\"90\" height=\"50\" rx=\"25\" fill=\"none\" stroke=\"#c6ff4f\" stroke-width=\"1.5\"/><text x=\"135\" y=\"150\" fill=\"#c6ff4f\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">&gt;=90 A</text><rect x=\"200\" y=\"120\" width=\"90\" height=\"50\" rx=\"25\" fill=\"none\" stroke=\"#38e1c8\" stroke-width=\"1.5\"/><text x=\"245\" y=\"150\" fill=\"#38e1c8\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">&gt;=70 B</text><rect x=\"310\" y=\"120\" width=\"90\" height=\"50\" rx=\"25\" fill=\"none\" stroke=\"#ff8a3d\" stroke-width=\"1.5\"/><text x=\"355\" y=\"150\" fill=\"#ff8a3d\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">&gt;=50 C</text><rect x=\"420\" y=\"120\" width=\"90\" height=\"50\" rx=\"25\" fill=\"none\" stroke=\"#ff5f57\" stroke-width=\"1.5\"/><text x=\"465\" y=\"150\" fill=\"#ff5f57\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\">&lt; D</text><text x=\"320\" y=\"215\" fill=\"#9a9cc4\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">a'lochi = 90+ &amp;&amp; davomat 100%</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi A/B/C else if zanjirini to'liq yozadi (>=90 A, >=70 B, >=50 C).",
+      "yarim": "A va B berilgan — C va else qismini o'zingiz qo'shing.",
+      "mustaqil": "To'liq A/B/C/D baho tizimini o'zingiz yozing."
     }
   },
   "b15": {
@@ -1089,6 +1119,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "3 ta takrorlanadigan ish.",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"160\" y=\"80\" width=\"320\" height=\"180\" rx=\"12\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><text x=\"195\" y=\"125\" fill=\"#9a9cc4\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">1. Har kuni dars</text><text x=\"195\" y=\"165\" fill=\"#9a9cc4\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">2. Har kuni sport</text><text x=\"195\" y=\"205\" fill=\"#9a9cc4\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">3. Har hafta dam</text><text x=\"320\" y=\"240\" fill=\"#7c5cff\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">→ takror = sikl</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi qo'lda 3 marta console.log yozib, takror muammosini ko'rsatadi.",
+      "yarim": "Naqshni ayting: bu kodda qaysi qism takrorlanmoqda?",
+      "mustaqil": "Kundalik hayotdan 3 ta takrorlanadigan ishni toping va yozing."
     }
   },
   "b16": {
@@ -1164,6 +1199,11 @@ export const DARSLAR = {
     "vazifaVizual": {
       "izoh": "Juft sonlar + 5x Salom.",
       "svg": "<svg class=\"vz-svg\" viewBox=\"0 0 640 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" preserveAspectRatio=\"xMidYMid meet\"><defs><marker id=\"vzar\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#6d6f9c\"/></marker></defs><rect x=\"120\" y=\"70\" width=\"400\" height=\"220\" rx=\"10\" fill=\"#0b0c1a\" stroke=\"#2a2c4e\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"96\" x2=\"520\" y2=\"96\" stroke=\"#2a2c4e\" stroke-width=\"1\"/><text x=\"134\" y=\"88\" fill=\"#6d6f9c\" font-size=\"11\" font-weight=\"400\" text-anchor=\"start\">console</text><text x=\"140\" y=\"115\" fill=\"#38e1c8\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">2  4  6  8  10  12</text><text x=\"140\" y=\"145\" fill=\"#38e1c8\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">14  16  18  20</text><text x=\"140\" y=\"190\" fill=\"#c6ff4f\" font-size=\"15\" font-weight=\"400\" text-anchor=\"start\">Salom (x5)</text><text x=\"140\" y=\"220\" fill=\"#6d6f9c\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Salom Salom Salom...</text></svg>"
+    },
+    "skaffold": {
+      "toliq": "O'qituvchi: for (let i = 1; i <= 10; i++) { console.log(i); }",
+      "yarim": "Qadamni to'ldiring: for (let i = 1; i <= 10; ___) { console.log(i); }",
+      "mustaqil": "Juft sonlarni (2 dan 20 gacha) for sikli bilan chiqaring."
     }
   },
   "b17": {
@@ -6940,6 +6980,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "Алгоритм из 3 шагов в консоли."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель пишет полностью: console.log(\"Привет, мир!\"); — результат сразу в консоли.",
+      "yarim": "Дано: console.log(___); — впишите в скобки своё имя.",
+      "mustaqil": "Напишите алгоритм из 3 строк (например, заваривание чая) через console.log сами."
     }
   },
   "b10": {
@@ -7000,6 +7045,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "4 переменные о себе (имя, возраст, город, цвет)."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель: let ism = \"Ali\"; let yosh = 14; console.log(ism, yosh);",
+      "yarim": "Заполните: let shahar = ___; console.log(shahar);",
+      "mustaqil": "Напишите о себе 4 переменные (имя, возраст, город, любимый цвет)."
     }
   },
   "b11": {
@@ -7063,6 +7113,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "2 числа → сумма и произведение."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель: let a = Number(prompt(\"Число:\")); let b = Number(prompt(\"Число:\")); console.log(a + b);",
+      "yarim": "Сумма готова. Теперь добавьте произведение: console.log(a ___ b);",
+      "mustaqil": "Спросите 2 числа и выведите их сумму и произведение."
     }
   },
   "b12": {
@@ -7126,6 +7181,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "Викторина разбита на 4-5 шагов."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель показывает план в комментариях: // 1. взять число // 2. выбрать операцию // 3. вычислить // 4. вывести",
+      "yarim": "Из 4 шагов даны 2 — остальные 2 напишите сами.",
+      "mustaqil": "Разбейте игру-викторину на 5 шагов и запишите их с комментариями."
     }
   },
   "b13": {
@@ -7194,6 +7254,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "Балл 75 → «прошёл»."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель: if (ball >= 60) { console.log(\"Сдал\"); } else { console.log(\"Пересдача\"); }",
+      "yarim": "Заполните условие: if (___) { console.log(\"Сдал\"); }",
+      "mustaqil": "По возрасту выведите сообщение: 18+ — \"взрослый\", иначе — \"юный\"."
     }
   },
   "b14": {
@@ -7257,6 +7322,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "Балл → A/B/C/D + отличник."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель пишет полную цепочку else if (>=90 A, >=70 B, >=50 C).",
+      "yarim": "A и B даны — добавьте C и else сами.",
+      "mustaqil": "Напишите полную систему оценок A/B/C/D сами."
     }
   },
   "b15": {
@@ -7320,6 +7390,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "3 повторяющихся дела."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель 3 раза вручную пишет console.log, показывая проблему повторения.",
+      "yarim": "Назовите закономерность: какая часть кода повторяется?",
+      "mustaqil": "Найдите 3 повторяющихся дела из повседневной жизни и запишите."
     }
   },
   "b16": {
@@ -7384,6 +7459,11 @@ export const DARSLAR_RU = {
     ],
     "vazifaVizual": {
       "izoh": "Чётные числа + 5x Привет."
+    },
+    "skaffold": {
+      "toliq": "Преподаватель: for (let i = 1; i <= 10; i++) { console.log(i); }",
+      "yarim": "Заполните шаг: for (let i = 1; i <= 10; ___) { console.log(i); }",
+      "mustaqil": "Выведите чётные числа (от 2 до 20) с помощью цикла for."
     }
   },
   "b17": {

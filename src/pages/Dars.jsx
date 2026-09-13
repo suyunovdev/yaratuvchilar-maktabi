@@ -101,6 +101,14 @@ function buildDars(k, til){
     html += '</section>'
   }
 
+  if(d.skaffold){
+    html += '<section><div class="eyebrow">'+L.skaffoldTitle+'</div><div class="skaf">'
+          + '<div class="skstep t"><div class="skh">'+L.skToliq+'</div><div class="skp">'+esc(d.skaffold.toliq)+'</div></div>'
+          + '<div class="skstep y"><div class="skh">'+L.skYarim+'</div><div class="skp">'+esc(d.skaffold.yarim)+'</div></div>'
+          + '<div class="skstep m"><div class="skh">'+L.skMustaqil+'</div><div class="skp">'+esc(d.skaffold.mustaqil)+'</div></div>'
+          + '</div></section>'
+  }
+
   if(d.vizual && d.vizual.length){
     html += '<section><div class="eyebrow">'+L.vizual+'</div>'
     d.vizual.forEach(function(v){

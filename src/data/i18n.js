@@ -11,7 +11,8 @@ export const LABELS = {
     modulBasic:"MODUL 1 — BASIC · «Yaratuvchi»", modulPro:"MODUL 2 — PRO · «Ilova muhandisi»",
     darsUnit:"dars", haftaBasic:"12 hafta", haftaPro:"16 hafta", thMavzu:"Mavzu", thNatija:"Natija",
     introBadge:"🚀 Boshlang'ich dars",
-    ghReminder:"Bajarilgan uy vazifasini GitHub'ga yuklab, havolasini o'qituvchiga yuboring.", ghLink:"Qanday yuborish?"
+    ghReminder:"Bajarilgan uy vazifasini GitHub'ga yuklab, havolasini o'qituvchiga yuboring.", ghLink:"Qanday yuborish?",
+    skaffoldTitle:"🪜 Bosqichma-bosqich (ko'prik)", skToliq:"1. To'liq misol", skYarim:"2. Yarim misol", skMustaqil:"3. Mustaqil"
   },
   ru: {
     kirish:"Введение", mavzular:"Темы урока", darslik:"Материал урока",
@@ -23,7 +24,8 @@ export const LABELS = {
     modulBasic:"МОДУЛЬ 1 — BASIC · «Создатель»", modulPro:"МОДУЛЬ 2 — PRO · «Инженер приложений»",
     darsUnit:"уроков", haftaBasic:"12 недель", haftaPro:"16 недель", thMavzu:"Тема", thNatija:"Результат",
     introBadge:"🚀 Вводный урок",
-    ghReminder:"Загрузите выполненное задание на GitHub и отправьте ссылку преподавателю.", ghLink:"Как отправить?"
+    ghReminder:"Загрузите выполненное задание на GitHub и отправьте ссылку преподавателю.", ghLink:"Как отправить?",
+    skaffoldTitle:"🪜 Шаг за шагом (мостик)", skToliq:"1. Полный пример", skYarim:"2. Половина примера", skMustaqil:"3. Самостоятельно"
   }
 }
 
@@ -62,6 +64,7 @@ export function mergeRu(d, ru){
   if(ru.vazifa) out.vazifa = ru.vazifa
   if(ru.nazariy) out.nazariy = ru.nazariy
   if(ru.mezon) out.mezon = ru.mezon
+  if(ru.skaffold) out.skaffold = ru.skaffold
   if(ru.material && d.material){
     out.material = d.material.map(function(it, i){
       var r = ru.material[i]; if(!r) return it

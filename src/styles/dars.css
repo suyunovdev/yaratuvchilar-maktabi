@@ -67,6 +67,12 @@
     align-items:center;color:#d8d8f5;font-size:14.5px}
   .gh-note .e{font-size:20px;flex:none}
   .gh-note a{color:var(--lime);font-weight:700;white-space:nowrap}
+  .skaf{display:flex;flex-direction:column;gap:10px}
+  .skstep{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:12px;padding:14px 16px}
+  .skstep.y{border-left-color:var(--cyan)} .skstep.m{border-left-color:var(--lime)}
+  .skh{font-family:var(--mono);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;color:var(--acc)}
+  .skstep.y .skh{color:var(--cyan)} .skstep.m .skh{color:var(--lime)}
+  .skp{color:#d8d8f5;font-size:15px;line-height:1.62}
 
   .mat{padding:2px 0 18px;border-bottom:1px dashed var(--line)}
   .mat:last-child{border:0;padding-bottom:0}
